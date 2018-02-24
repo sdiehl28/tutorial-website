@@ -1,15 +1,23 @@
 +++
 title = "Home Page"
 description = "Home Page"
-date = "2018-02-09T18:00:00-08:00"
+creatordisplayname = "Stephen Diehl"
+lastmodifierdisplayname = " by Stephen Diehl"
+
 +++
 
-## Software Nirvana
-This website is a collection of tutorials and topics primarily about Python, Data Science and Machine learning, by Stephen Diehl.
+### Software Nirvana
+This website is a collection of tutorials and topics about Python, Data Science, Machine Learning and more.
 
 #### Who This is For
 
-This website is aimed at practitioners.  The focus will be on Jupyter Notebook code available from my public github account.  This website will briefly describe what the code does and provide a link to it, but the primary content will be in the Jupyter Notebooks.
+This website is aimed at practitioners.  Topics will be organized with short introductions.  Links will be provided to my free Python Jupyter Notebooks which demonstrate the topic.
+
+#### Reviews of Books, Courses and Tools
+
+I will endeavor to suggest just a few of the best (in my opinion) resources.  Data Science and Machine Learning is a huge field and newcomers are often overwhelmed by the number of recommendations. 
+
+
 
 
 

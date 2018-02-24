@@ -1,7 +1,7 @@
 +++
 title = "Versions"
 description = ""
-date = "2018-02-09T18:00:00-08:00"
+date = "2018-02-24"
 weight = 1
 +++
 
