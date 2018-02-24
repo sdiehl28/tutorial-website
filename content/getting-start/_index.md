@@ -1,14 +1,14 @@
 +++
-title = "Getting started"
+title = "Getting Started"
 description = ""
 weight = 1
-alwaysopen = true
+alwaysopen = false
 head = "<label>Tutorials</label>"
 
 +++
 
-## Requirements
+### Development Environment
 
-Download [Hugo binary](https://gohugo.io/overview/installing/) for your OS (Windows, Linux, Mac) : it’s that simple
+Perhaps the easiest way to get started is to install the Anaconda distribution of Python.  By default this includes Pandas and Scikit Learn.
 
-{{%children style="h2" description="true"%}}
+There are many excellent tutorials on how to install Anaconda, such as [Python Tutorial Anaconda](https://www.youtube.com/watch?v=YJC6ldI3hWk).
