@@ -1,6 +1,7 @@
 +++
-title = "DocDock Theme for Hugo"
-description = ""
+title = "Home Page"
+description = "Home Page"
+date = "2018-02-09T18:00:00-08:00"
 +++
 
 # Hugo docDock theme
@@ -47,4 +48,3 @@ Automatically published and hosted thanks to [Netlify](https://www.netlify.com/)
 
 Read more about [Automated HUGO deployments with Netlify](https://www.netlify.com/blog/2015/07/30/hosting-hugo-on-netlifyinsanely-fast-deploys/)
 {{% /panel %}}
-
