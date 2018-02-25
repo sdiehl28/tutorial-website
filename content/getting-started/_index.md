@@ -35,5 +35,5 @@ Some Topics in Data Science and Machine Learning
 
 Consider:
 
-- [Online Courses](/posts-reviews)
+- [Online Courses](/reviews)
 - Subscription to [SafariBooksOnline](https://www.safaribooksonline.com/)
