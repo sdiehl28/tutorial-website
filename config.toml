@@ -34,8 +34,6 @@ identifier = "ds"
 url = "https://github.com/sdiehl28/tutorial-jupyter-notebooks"
 weight = 10
 
-
-
 [[menu.shortcuts]]
 name = "<i class='fa fa-linkedin' aria-hidden='true'></i> <label>LinkedIn</label>"
 identifier = "linkedin"

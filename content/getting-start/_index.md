@@ -5,7 +5,7 @@ weight = 1
 alwaysopen = false
 date = "2018-02-24"
 head = "<label>Tutorials</label>"
-
+lastmod = 2018-02-25
 +++
 
 ### Development Environment
@@ -22,4 +22,3 @@ Some Python editors and IDEs to consider are:
 - [Pycharm](https://www.jetbrains.com/pycharm/download/)
 - [Spyder](https://spyder-ide.github.io/)
 - [Atom](https://atom.io/) with Python plugins
-

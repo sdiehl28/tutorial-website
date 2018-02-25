@@ -3,10 +3,12 @@ title = "Home Page"
 description = "Home Page"
 creatordisplayname = "Stephen Diehl"
 lastmodifierdisplayname = " by Stephen Diehl"
-
+lastmod = 2018-02-25
 +++
 
 ### Software Nirvana
+**2018-02-25: Under Construction: Website and Jupyter Notebooks not yet written!**
+
 This website is a collection of tutorials and topics about Python, Data Science, Machine Learning and more.
 
 #### Who This is For
