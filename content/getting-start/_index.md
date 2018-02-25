@@ -14,8 +14,12 @@ Perhaps the easiest way to get started is to install the Anaconda distribution o
 There are many excellent tutorials on how to install Anaconda, such as [Python Tutorial Anaconda](https://www.youtube.com/watch?v=YJC6ldI3hWk).
 
 ### Editors and IDEs
-There are many good choices.  Some Python editors and IDEs to consider are:
+There are many good choices.  If you already have a favorite, then stick with it.
+
+Some Python editors and IDEs to consider are:
+
 - [Jupyter Notebooks](http://jupyter.org/install)
 - [Pycharm](https://www.jetbrains.com/pycharm/download/)
 - [Spyder](https://spyder-ide.github.io/)
 - [Atom](https://atom.io/) with Python plugins
+

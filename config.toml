@@ -46,3 +46,9 @@ name = "<i class='fa fa-bookmark'></i> <label>Hugo Documentation</label>"
 identifier = "hugodoc"
 url = "https://gohugo.io/"
 weight = 20
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-linkedin' aria-hidden='true'></i> <label>LinkedIn</label>"
+identifier = "linkedin"
+url = "https://gohugo.io/"
+weight = 30
