@@ -1,8 +1,8 @@
 ---
-title: "About"
+title: "About this Website"
 date: 2018-02-24T18:16:34-08:00
-draft: false
 weight: 100
+head: "<label>Links</label>"
 ---
 This site was generated with the [Hugo](https://gohugo.io/) static website generator and is built, hosted and deployed on [Netlify](https://www.netlify.com/docs/continuous-deployment/).
 
