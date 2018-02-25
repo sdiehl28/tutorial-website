@@ -7,8 +7,8 @@ date = "2018-02-24"
 lastmod = 2018-02-25
 +++
 
-### Development Environment
-Perhaps the easiest way to get started is to install the Anaconda distribution of Python.  By default this includes Pandas and Scikit Learn.  This distribution works well with Linux, MacOS and Windows.
+### Anaconda
+Perhaps the easiest way to get started is to install the [Anaconda](https://www.anaconda.com/download) distribution of Python.  By default this includes Pandas and Scikit Learn.  This distribution works well with Linux, MacOS and Windows.
 
 There are many excellent tutorials on how to install Anaconda, such as [Python Tutorial Anaconda](https://www.youtube.com/watch?v=YJC6ldI3hWk).
 
