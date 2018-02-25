@@ -1,10 +1,9 @@
 +++
-title = "Getting Started"
+title = "Development Environment"
 description = ""
-weight = 1
+weight = 10
 alwaysopen = false
 date = "2018-02-24"
-head = "<label>Tutorials</label>"
 lastmod = 2018-02-25
 +++
 

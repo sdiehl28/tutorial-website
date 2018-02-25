@@ -17,7 +17,7 @@ This website is aimed at practitioners.  Topics will be organized with short int
 
 #### Reviews of Books, Courses and Tools
 
-I will endeavor to suggest just a few of the best (in my opinion) resources.  Data Science and Machine Learning is a huge field and newcomers are often overwhelmed by the number of recommendations. 
+Data Science and Machine Learning is a huge field and newcomers are often overwhelmed by the number of recommendations. I will endeavor to suggest just a few of the best (in my opinion) resources.  
 
 
 
