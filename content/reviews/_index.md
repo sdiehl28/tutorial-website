@@ -36,5 +36,5 @@ Coursera courses are taught by professors at well known universities.  Coursera 
 Data Camp has the best platform for learning how to code for Data Science and Machine Learning.
 
 {{% notice note%}}
-Udemy is also an excellent choice.  I have enjoyed many classes by Jose and Boris.
+Udemy is also an excellent choice.  Any course by Jose Portilla is excellent.  Boris Paskhaver has an in-depth course in Pandas that is also excellent.
 {{% /notice %}}
