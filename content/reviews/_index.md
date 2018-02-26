@@ -1,7 +1,7 @@
 +++
 title = "Online Course Reviews"
 description = ""
-weight = 10
+weight = 25
 head = "<label>Posts and Reviews</label>"
 lastmod = 2018-02-25
 +++
