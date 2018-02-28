@@ -15,7 +15,7 @@ There are many excellent tutorials on how to install Anaconda, such as [Python T
 ### Editors and IDEs
 There are many good choices.  If you already have a favorite, then stick with it.
 
-Some Python editors and IDEs to consider are:
+Some Python editors and IDEs to consider include:
 
 - [Jupyter Notebooks](http://jupyter.org/install)
 - [Pycharm](https://www.jetbrains.com/pycharm/download/)

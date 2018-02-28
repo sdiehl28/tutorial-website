@@ -7,24 +7,6 @@ head = "<label>Tutorials</label>"
 lastmod = 2018-02-25
 +++
 
-### Introduction
-
-Some Topics in Data Science and Machine Learning
-
-- Basic Skills
-  - Introductory Statistics
-  - Introductory Programming
-- Data Science
-  - Getting and Cleaning Data
-  - Data Manipulation
-  - Data Visualization
-  - Data Analysis
-  - Data Modeling (Linear Regression)
-- Machine Learning
-  - Model Types: Supervised, Unsupervised, ...
-  - Model Algorithms: Linear Regression, Logistic Regression, Gradient Boosting, ...
-  - Evaluating and Improving Model Accuracy
-
 ### Python vs R
 
 Python and R are both excellent. One is not better than the other for Data Science and Machine Learning.

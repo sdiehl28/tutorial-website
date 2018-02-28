@@ -1,7 +1,7 @@
 +++
 title = "Code Snippets"
 description = ""
-weight = 20
+weight = 40
 alwaysopen = false
 lastmod = 2018-02-25
 +++
