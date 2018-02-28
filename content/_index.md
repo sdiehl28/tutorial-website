@@ -15,33 +15,21 @@ A website about Python, Data Science, Machine Learning and related topics.
 
 This website was motivated by observing that the majority of "Kaggle Kernels" published to help novice machine learners, make the very serious mistake of "data leakage".  This is true even of kernels published by some of Kaggle's own staff.
 
-Perhaps the thinking is that it's too hard to teach beginners a correct machine learning workflow, so let's present an easier, albeit seriously flawed workflow instead.  I disagree.  Unlearning a bad habit can be more difficult than learning a new good habit.
+Perhaps the thinking is that it's too hard to teach beginners a correct machine learning workflow, so let's present an easier, albeit seriously flawed workflow instead.  I disagree with this approach.  Unlearning a bad habit can be more difficult than learning a new good habit.
 
-If you do not know what "data leakage" is, that's fine.  It will be defined shortly.  For now it is important to realize that "data leakage" may lead to improperly tuned models as well as highly inflated estimates of model accuracy on out-of-sample data.  These are series problems in the real world usage of predictive models.
+If you do not know what "data leakage" is, that's fine.  It will be defined shortly.  For now it is important to realize that "data leakage" may lead to improperly tuned models as well as highly inflated estimates of model accuracy on out-of-sample data.  These are serious problems in the real world usage of predictive models.  "Data leakage" is a part of the larger topic of "overfitting"and more generally this website will focus on avoiding overfitting.
 
-As the Kaggle tutorials that most often exhibit "data leakage" refer to the Kaggle Titantic dataset, that is the dataset that will be used here.
+As the Kaggle tutorials that most often exhibit data leakage refer to the Kaggle Titanic dataset, this is the dataset that will be used here.  But this website won't be yet another rehash of predicting on the Titanic dataset, rather it will be a clear step-by-step presentation of the entire machine learning workflow, with an emphasis on code, that allows the beginner to apply what they learn here to more complex real world problems.
 
-I believe there is a way to teach beginners, in a clear step-by-step manner, with an emphasis on code, that allows them to develop good habits right from the very beginning.
+The approach presented here will borrow from the ideas of agile software development.  The idea is that continuous measured improvement through iteration leads to a better solution than trying to approach software development in a linear (aka waterfall) fashion.
 
-Machine Learning is a difficult topic to teach it relies on many disciplines and creating even a simple model requires performing many different types of steps.  This website and associated Jupyter Notebooks will not attempt to teach Machine Learning, rather this website will simply discuss, in detail, a proper way to create a simple predictive model.  The emphasis will be on code, not theory, with an emphasis on how to avoid 
+Machine Learning involves many steps and the steps are interconnected with one another.  It is not possible to simply follow a predefined set of steps, in order, and arrive at the "best" model on the last step.    Rather a more organic approach in which a baseline model is quickly created, a metric of success is measured and documented, and the model is improved through a series of iterations in which any step of the model building process may be modified, will be used.
 
-
-
-
-
-This website is a collection of tutorials and topics about Python, Data Science, Machine Learning and related topics.
-
-
-
-
-
-The initial motivation behind this website is to address beginning Machine Learning practitioners.  A popular introductory project for beginners is based of the Kaggle Titantic dataset.  Unfortunately the majority of the Kaggle Kernels, including some published by Kaggle staffers themselves, make a very serious mistake of "data leakage".  Apparently the thinking is that beginners are better off starting with a machine learning workflow that if used in practice leads to aggresious errors, than it is 
-
-It is meant to provide supplementary material addressing areas that may be confusing to beginners.  It is not mean to be used as a sole resource.
+Machine Learning is a vast topic that relies on many disciplines.  The intent of this website is not to teach machine learning, but rather to teach a *process* for creating a machine learning model that borrows from success stories in software development.  That said, to get hung up on process, the names used for process steps, etc., is to miss the forest from the trees.  What matters is the organic evolution of your machine learning model through a series of iterative cycles each of which measure improvement.  What name you give it and and exactly how you do it, is irrelevant.  The only thing that is relevant is success.
 
 #### Who This is For
 
-The target audience is beginning and intermediate practitioners of Data Science and Machine Learning.
+Beginning and intermediate practitioners of Data Science and Machine Learning.
 
 It is assumed you have written some Python, Pandas and Scikit Learn code, but may not be comfortable putting all the pieces together.
 
