@@ -8,7 +8,7 @@ lastmod = 2018-02-27
 
 ### Topics
 
-Some Topics to be Discussed in Data Science and Machine Learning:
+Some Topics in Data Science and Machine Learning Include:
 
 - Basic Skills
   - Introductory Statistics
@@ -23,3 +23,9 @@ Some Topics to be Discussed in Data Science and Machine Learning:
   - Model Types: Supervised, Unsupervised, ...
   - Model Algorithms: Linear Regression, Logistic Regression, Gradient Boosting, ...
   - Evaluating and Improving Model Accuracy
+- The Model Building Process
+  - Putting the above steps together to create a software application
+  - Writing maintainable code
+  - Iterative refinement
+  - Measured improvement
+  - Reproducible results

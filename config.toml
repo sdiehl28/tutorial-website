@@ -29,7 +29,7 @@ enableGitInfo = true
 home = [ "HTML", "RSS", "JSON"]
 
 [[menu.shortcuts]]
-name = "<i class='fa fa-github'></i> <label>Github repo</label>"
+name = "<i class='fa fa-github'></i> <label>Github Repo</label>"
 identifier = "ds"
 url = "https://github.com/sdiehl28/tutorial-jupyter-notebooks"
 weight = 10
