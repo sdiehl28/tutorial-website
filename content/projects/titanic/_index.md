@@ -14,6 +14,6 @@ Link to GitHub Repo at top of page.
 
 List of Notebooks:
 
-* [Initial Model](http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/projects/Titanic01.ipynb)
+* [Establish Baseline Model](http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/projects/Titanic01.ipynb)
 * [Avoid Test Set Leakage](http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/projects/Titanic02.ipynb)
 * [Pipelines](http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/projects/Titanic03.ipynb)

@@ -15,7 +15,7 @@ A website about Python, Data Science, Machine Learning and related topics.
 
 What distinguishes this website from other ML tutorials:
 
-* emphasis on model building process *prior* to improving model accuracy
+* emphasis on iteratively improving model accuracy
 * emphasis on avoiding overfitting (or overstating model accuracy on out-of-sample data)
 
 The ML process described here will:
@@ -36,7 +36,7 @@ Benefits of Good Workflow include:
 * ability to easily experiment with new ideas
 * fewer software and model evaluation bugs
 
-A predictive model is something that organically evolves through a series of iterative cycles each of which measures improvement.  This evolution happens through following a process, but not a process that is a strict methodology with precise names and rules to follow, but rather a process which permits each iteration to naturally evolve with respect to current goals.
+A predictive model is something that evolves through a series of iterative cycles each of which measures improvement.
 
 #### Who This is For
 

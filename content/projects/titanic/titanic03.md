@@ -1,12 +1,12 @@
 +++
-title = "Titantic 02"
+title = "Titantic 03"
 description = ""
-weight = 20
+weight = 30
 alwaysopen = false
 lastmod = 2018-03-03
 +++
 
-### Iteration 2: Impute Age without Test Set Leakage
+### Iteration 3: Pipelines
 
 Jupyter Notebook: [Impute Age](http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/projects/Titanic01.ipynb)
 
