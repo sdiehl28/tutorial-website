@@ -3,27 +3,24 @@ title = "Home Page"
 description = "Home Page"
 creatordisplayname = "Stephen Diehl"
 lastmodifierdisplayname = " by Stephen Diehl"
-lastmod = 2018-03-03
+lastmod = 2018-03-06
 +++
 
 ### Software Nirvana
-**2018-03-03: Under Construction: Website and Jupyter Notebooks not yet written!**
+**2018-03-06: Under Construction: Website and Jupyter Notebooks not yet written!**
 
 A website about Python, Data Science, Machine Learning and related topics.
 
 #### Preface
 
-What distinguishes this website from other ML tutorials:
-
-* emphasis on iteratively improving model accuracy
-* emphasis on avoiding overfitting (or overstating model accuracy on out-of-sample data)
+What distinguishes this website from other ML tutorials is an emphasis on the software process of building Machine Learning models.  In particular, building models through iterative improvement.
 
 The ML process described here will:
 
 * quickly create a baseline model
 * iteratively improve upon that model
 
-**The model building process be demonstrated using a series of Jupyter Notebooks with each notebook representing the next evolution of the model.**
+**The model building process will be demonstrated using a series of Jupyter Notebooks with each notebook representing the next evolution of the model.**
 
 Model Improvement means:
 
@@ -50,7 +47,7 @@ The best way to learn is to work on actual projects.
 
 The first project will use a popular dataset from Kaggle, the Titanic dataset.
 
-Within the context of refining the predictive model, links to tutorial Jupyter notebooks will be presented.  These tutorials focus on mechanics, such as how to use Pandas.  The project notebooks on the model building process, that is, putting all the steps together and iteratively refining them.
+Within the context of refining the predictive model, links to tutorial Jupyter notebooks will be presented.  These tutorials focus on mechanics, such as how to use Pandas.  The project notebooks focus on the model building process, that is, putting all the steps together and iteratively refining them.
 
 #### Posts and Reviews of Books, Courses and Tools
 

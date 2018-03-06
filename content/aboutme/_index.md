@@ -3,10 +3,14 @@ title: "About Me"
 date: 2018-02-24T18:16:34-08:00
 weight: 110
 lastmodifierdisplayname: " by Stephen Diehl"
-lastmod: 2018-03-03
+lastmod: 2018-03-06
 ---
-Physics: model the world with math
+I am a professional software developer with over 20 years of experience.
 
-Machine Learning: model the data with machine learning models
+I received a Bachelor's Degree in Physics from the University of California, San Diego.
 
-Professional Software Developer
+Physics is the modeling of the world using the language of mathematics.
+
+Machine Learning is the modeling of data using machine learning models.  What motivated me to learn physics, is very similar to what motivate me to learn Machine Learning.
+
+I am an avid hiker, having day-hiked Mount Whitney for the second time in September of 2017.

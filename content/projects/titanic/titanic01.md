@@ -3,7 +3,7 @@ title = "Titantic 01"
 description = ""
 weight = 10
 alwaysopen = false
-lastmod = 2018-03-03
+lastmod = 2018-03-06
 +++
 
 ### Establish Baseline Model
@@ -27,6 +27,6 @@ Keeping track of how you built your model is part of [Repeatable Research](https
 
 Repeatability is key to allowing yourself and others to check your work for subtle errors, such as leakage from the test data into the model building process, and for clues on how to improve the model further.
 
-### Evaluate the Model
+### Evaluate Model Performance
 
-Cross Validation vs a single Train/Test Split.
+The Jupyter Notebook discussed both train/test split and cross validation as method to estimate the model's performance on out-of-sample data.
