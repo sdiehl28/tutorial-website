@@ -1,8 +1,8 @@
 +++
 title = "University"
 description = ""
-weight = 10
-lastmod = 2018-02-25
+weight = 40
+lastmod = 2018-04-24
 +++
 #### Stanford or any University
 

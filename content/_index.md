@@ -7,12 +7,18 @@ lastmod = 2018-04-24
 +++
 
 ### Software Nirvana
-This website is about demonstrating Data Science and Machine Learning concepts in code.  Detailed code explanations will be provided using Jupyter notebooks.
+This website discusses and demonstrates some key concepts in Data Science and Machine Learning.  Detailed explanations of provided using Python Jupyter Notebooks.
 
-Links will be provided for learning about the Data Science and Machine Learning concepts.
+The Jupyter Notebooks will primarily make use of:
 
-The code will primarily use: Python, Numpy, Matplotlib/Seaborn, Pandas and Scikit Learn.
+* Python Standard Library
+* Numpy
+* Matplotlib/Seaborn
+* Pandas
+* Scikit Learn
 
 #### Target Audience
 
 Beginning and intermediate practitioners of Data Science and Machine Learning.
+
+Readers who are familiar with the basic concepts of Data Science and Machine Learning, and who have written some code in each of the above mentioned libraries, but are not yet experts, will likely gain the most from this website.  An effort has been made to provide links to some of the best online resources for learning more.

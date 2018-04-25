@@ -30,6 +30,10 @@ body {
 html {
   font-family: 'Segoe UI', sans-serif;
 }
+
+header nav.shortcuts li a:active, header nav.shortcuts li a:focus, header nav.shortcuts li a:hover {
+    background-color: #428bff;
+}
 /* p {
   margin-top: -0.5em;
 } */

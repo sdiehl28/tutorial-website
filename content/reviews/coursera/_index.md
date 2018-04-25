@@ -4,6 +4,16 @@ description = ""
 weight = 20
 lastmod = 2018-02-25
 +++
+Coursera courses are taught by college professors from excellent universities such as Standford, John Hopkins, Duke, etc.  These courses are more practical than typical college courses, but still emphasize fundamentals more than many other DS and ML online courses.
+
+If you have the time, Coursera courses compliment courses such as those from DataCamp nicely.  In the following sections I review courses from the 3 specializations I have taken.
+
+***
+
+REMOVE BELOW THIS LINE
+
+
+
 #### Coursera
 
 ##### Data Science Specialization: 8 Courses Completed

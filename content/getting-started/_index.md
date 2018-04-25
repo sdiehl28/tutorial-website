@@ -10,13 +10,13 @@ lastmod = 2018-04-24
 
 ### Python vs R
 
-Python and R are both excellent. One is not better than the other for Data Science and Machine Learning.
+Python and R are both excellent.  One is not better than the other for Data Science and Machine Learning.
 
-You may prefer R if you have a statistics background or are academically oriented. 
+You may prefer R if you have a statistics background, are academically oriented, or want to try the latest algorithm published in a recent academic paper.
 
-You may prefer Python if you have a developer background or you want to become a developer.
+You my prefer Python if you have a developer background, or intend to implement Data Science and Machine Learning applications in code.
 
-If you can't decide, Python may be best. 
+If you can't decide, Python may be the best to start with. 
 
 This website will use Python for most discussions and examples.
 
@@ -27,7 +27,7 @@ All code here uses the Anaconda distribution of Python.   There are many excelle
 
 ### Software Versions
 
-If your software versions are about the same or newer, they your code will likely run the same as the Jupyter Notebook code.
-
-To see what versions of the software this website uses:
+To see what versions of the software  library this website uses:
 <a href="http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/snippets/ShowVersions.ipynb" target="_blank">Show Versions</a>
+
+You should use similar or newer versions to ensure you get the same results.
