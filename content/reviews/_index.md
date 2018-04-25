@@ -1,9 +1,8 @@
 +++
 title = "Online Course Reviews"
 description = ""
-weight = 50
-head = "<label>Posts and Reviews</label>"
-lastmod = 2018-02-25
+weight = 30
+lastmod = 2018-04-24
 +++
 For most people who already have a professional career, the best way to learn Data Science and Machine Learning is to take online courses.  The career value for your time and money is excellent.
 

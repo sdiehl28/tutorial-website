@@ -1,5 +1,5 @@
 +++
-title = "Titantic 02"
+title = "Cross Validation"
 description = ""
 weight = 20
 alwaysopen = false

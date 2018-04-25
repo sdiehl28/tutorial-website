@@ -11,6 +11,6 @@ I received a Bachelor's Degree in Physics from the University of California, San
 
 Physics is the modeling of the world using the language of mathematics.
 
-Machine Learning is the modeling of data using machine learning models.  What motivated me to learn physics, is very similar to what motivate me to learn Machine Learning.
+Machine Learning is the modeling of data using machine learning models.  What motivated me to learn physics, is very similar to what motivates me to learn Machine Learning.
 
 I am an avid hiker, having day-hiked Mount Whitney for the second time in September of 2017.

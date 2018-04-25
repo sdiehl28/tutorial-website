@@ -18,6 +18,18 @@ ul ul ul li {
   list-style-type: square;
 }
 
+header {
+  background-color: #428bca;
+  color: #fff;
+}
+
+body {
+  color: #404040
+}
+
+html {
+  font-family: 'Segoe UI', sans-serif;
+}
 /* p {
   margin-top: -0.5em;
 } */

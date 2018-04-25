@@ -1,14 +1,13 @@
 +++
 title = "Projects"
 description = ""
-weight = 10
+weight = 50
 alwaysopen = false
-lastmod = 2018-03-06
+head = "<label>Code</label>"
+lastmod = 2018-04-24
+
 +++
 
-### Projects
+### General Note on Projects
 
-The emphasis will be on:
-
-* quickly establishing a baseline model
-* iteratively improving the model
+Each folder in this section represents the development of a project from start to finish on a single data set.

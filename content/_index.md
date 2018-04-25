@@ -3,56 +3,16 @@ title = "Home Page"
 description = "Home Page"
 creatordisplayname = "Stephen Diehl"
 lastmodifierdisplayname = " by Stephen Diehl"
-lastmod = 2018-03-06
+lastmod = 2018-04-24
 +++
 
 ### Software Nirvana
-**2018-03-06: Under Construction: Website and Jupyter Notebooks not yet written!**
+This website is about demonstrating Data Science and Machine Learning concepts in code.  Detailed code explanations will be provided using Jupyter notebooks.
 
-A website about Python, Data Science, Machine Learning and related topics.
+Links will be provided for learning about the Data Science and Machine Learning concepts.
 
-#### Preface
+The code will primarily use: Python, Numpy, Matplotlib/Seaborn, Pandas and Scikit Learn.
 
-What distinguishes this website from other ML tutorials is an emphasis on the software process of building Machine Learning models.  In particular, building models through iterative improvement.
-
-The ML process described here will:
-
-* quickly create a baseline model
-* iteratively improve upon that model
-
-**The model building process will be demonstrated using a series of Jupyter Notebooks with each notebook representing the next evolution of the model.**
-
-Model Improvement means:
-
-* improved accuracy or interpretability
-* improved workflow
-
-Benefits of Good Workflow include:
-
-* reproducibility
-* ability to easily experiment with new ideas
-* fewer software and model evaluation bugs
-
-A predictive model is something that evolves through a series of iterative cycles each of which measures improvement.
-
-#### Who This is For
+#### Target Audience
 
 Beginning and intermediate practitioners of Data Science and Machine Learning.
-
-It is assumed you have written some Python, Pandas and Scikit Learn code, but may not be comfortable putting all the pieces together.
-
-#### Projects
-
-The best way to learn is to work on actual projects.
-
-The first project will use a popular dataset from Kaggle, the Titanic dataset.
-
-Within the context of refining the predictive model, links to tutorial Jupyter notebooks will be presented.  These tutorials focus on mechanics, such as how to use Pandas.  The project notebooks focus on the model building process, that is, putting all the steps together and iteratively refining them.
-
-#### Posts and Reviews of Books, Courses and Tools
-
-Data Science and Machine Learning are built on top of many disciplines, each of which has a large number of topics in their own right.  As such, Data Science and Machine Learning encompasses a vast number of topics.  Beginners are often overwhelmed at the number of books and courses recommended, *just to get started*.  But no one can *start* with dozens of resources.
-
-My aim will be to suggest only the most important (in my opinion)  resources in order to allow the reader to get started.
-
-

@@ -1,5 +1,5 @@
 +++
-title = "Titantic 01"
+title = "Establish Baseline Model"
 description = ""
 weight = 10
 alwaysopen = false

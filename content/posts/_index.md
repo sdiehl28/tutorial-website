@@ -1,8 +1,9 @@
 +++
-title = "Posts"
+title = "Recent Posts"
 description = ""
-weight = 60
-lastmod = 2018-02-25
+weight = 50
+head = "<label>Posts</label>"
+lastmod = 2018-04-24
 +++
 
-General note on posts ...
+Recent Posts ...
