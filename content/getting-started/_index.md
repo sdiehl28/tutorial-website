@@ -1,7 +1,7 @@
 +++
 title = "Getting Started"
 description = ""
-weight = 1
+weight = 110
 alwaysopen = false
 head = "<label>Recommendations</label>"
 lastmod = 2018-04-24

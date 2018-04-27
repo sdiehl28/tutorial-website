@@ -1,18 +1,20 @@
 +++
 title = "Books"
 description = ""
-weight = 10
+weight = 120
 alwaysopen = false
-lastmod = 2018-04-24
+lastmod = 2018-04-26
 
 +++
 
 ### Recommendations
 
-I am a strong believer in taking the time to find a few of the best books, and then reading and rereading these books. It is better to read an excellent book twice, and fully grasp what the author is presenting, than it is to read two mediocre books.
+I believe it is more helpful to present a short list of excellent books than it is to present dozens of books which overwhelm the newcomer.
 
-For some people, it may be helpful to read two excellent books on the same subject at the same time. This provides two different perspectives making it less likely that you will get stuck on any particular topic.
+I find it is also helpful to reread the best books, being sure to fully grasp the material, before moving on to other books.
 
-For some people, [online courses](/reviews) may be better than books.
+Some people may find it helpful to read two excellent books on the same subject at the same time.  This provides two different perspectives making it less likely you will get stuck on any particular topic.
+
+For many people,  [online courses](/reviews) are better than books, or are better to start with than books.
 
 The following sections present my short list of the best books for the key subject areas.

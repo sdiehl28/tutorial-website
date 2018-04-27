@@ -1,7 +1,7 @@
 ---
 title: "About Me"
 date: 2018-02-24T18:16:34-08:00
-weight: 110
+weight: 420
 lastmodifierdisplayname: " by Stephen Diehl"
 lastmod: 2018-03-06
 ---

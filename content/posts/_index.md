@@ -1,9 +1,9 @@
 +++
 title = "Recent Posts"
 description = ""
-weight = 50
+weight = 310
 head = "<label>Posts</label>"
-lastmod = 2018-04-24
+lastmod = 2018-04-26
 +++
 
 Recent Posts ...

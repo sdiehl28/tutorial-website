@@ -11,3 +11,5 @@ Arguably DataCamp does not teach the core concepts quite as well as the Coursera
 If you compliment the DataCamp courses with resources such as those mentioned in [Books](/books/) or other online courses, you will have all you need to get started writing data science and machine learning application code.
 
 Both the R track and the Python track are excellent.  As you might expect, the R track has more emphasis on statistics and the Python track has more emphasis on software development.
+
+I enjoyed taking both tracks.  I found it helped to see the same topics presented in two different languages.  That said, I am a professional software developer who is comfortable with many programming languages.  In general, I would recommend that you chose either Python or R and stick to one, and only one, for at least 6 months.  The differences between the two are significant and until you are well grounded in one, moving on to the other may be confusing.
