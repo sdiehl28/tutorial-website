@@ -4,8 +4,19 @@ date: 2018-02-24T18:16:34-08:00
 weight: 410
 head: "<label>About</label>"
 lastmodifierdisplayname: " by Stephen Diehl"
-lastmod: 2018-04-24
+lastmod: 2018-04-27
 ---
+This website is primarily about Data Science and Machine Learning.  The goals are to:
+
+* provide Jupyter Notebooks in Python that demonstrate key concepts
+* provide links to resources to learn key concepts
+* provide coding details of the Scikit Learn API
+* use appropriate supporting code that relies on: 
+  * Pandas
+  * Matplotlib, Seaborn
+  * Numpy
+  * Python's Standard Library
+
 This site was generated with the [Hugo](https://gohugo.io/) static website generator and is built, hosted and deployed on [Netlify](https://www.netlify.com/docs/continuous-deployment/).
 
 *Content on this site is licensed under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/). </br>Images are subject to copyright.*
