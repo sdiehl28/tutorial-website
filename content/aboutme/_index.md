@@ -1,9 +1,9 @@
 ---
-title: "About Me"
+title: "Myself"
 date: 2018-02-24T18:16:34-08:00
 weight: 420
 lastmodifierdisplayname: " by Stephen Diehl"
-lastmod: 2018-03-06
+lastmod: 2018-04-26
 ---
 I am a professional software developer with over 20 years of experience.
 

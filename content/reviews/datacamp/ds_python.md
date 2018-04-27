@@ -4,8 +4,6 @@ description = ""
 weight = 10
 lastmod = 2018-04-26
 +++
-### Data Science Track in Python
-
 The [Data Science with Python Track](https://www.datacamp.com/tracks/data-scientist-with-python) consists of 20 courses taught by several different people.  The teaching style of a short video followed by a real coding quiz on their excellent platform, works very well.  Data Camp has by far the best teaching platform of any of the online courses I have taken.
 
 I completed all 20 courses which includes topics such as:

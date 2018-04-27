@@ -4,11 +4,7 @@ description = ""
 weight = 120
 alwaysopen = false
 lastmod = 2018-04-26
-
 +++
-
-### Recommendations
-
 I believe it is more helpful to present a short list of excellent books than it is to present dozens of books which overwhelm the newcomer.
 
 I find it is also helpful to reread the best books, being sure to fully grasp the material, before moving on to other books.
