@@ -1,22 +1,40 @@
-+++
-title = "Cross Validation"
-description = ""
-weight = 20
-alwaysopen = false
-lastmod = 2018-03-03
-+++
+---
+title: "Cross Validation"
+description:  ""
+weight: 20
+alwaysopen: false
+lastmod: 2018-04-29
+typora-root-url: /home/agni/SoftwareProjects/Sites/tutorial/static/
+---
+#### Jupyter Notebook: <a href="http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/projects/Titanic02.ipynb" target="_blank">Cross Validation</a>
+### Notebook Goals  
+* Add Age to the model (requires imputation of missing values)
+* Demonstrate the right and wrong way to perform Cross Validation
+* Compare this model with the previous iteration
 
-### Iteration 2: Impute Age without Test Set Leakage
+<div class="alert alert-success">
+<strong>Tip:</strong> The Jupyter Notebook link above provides the discussion and code.  This web page is just a minimal summary.
+</div>
 
-Jupyter Notebook: [Impute Age](http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/projects/Titanic01.ipynb)
+### Notebook Results  
 
-This Jupyter Notebook is more instructional than functional.
+* Added Age to the model
+* Imputed the missing Age values
+* Showed the right and wrong way to setup for cross validation
+* Used Imputation as part of a Pipeline, along with cross_val_score. This improves the quality of the software as it concisely performs cross validation correctly
 
-One type of overfitting is Test Set Leakage.  This occurs when you look at your test data prior to building your model.
+This iteration adds Age to the model.
 
-A model is trained on a train dataset and evaluated on a test dataset.  In cross validation, to be discussed later, this is performed multiple times.
+The folowing boxplot shows the 10 cross validated scores for this iteration and the previous iteration.
 
-For a wonderful anecdotal story by one of the luminaries of Statistical Machine Learning, Robert Tibshirani, in which a Ph.D. oral dissertation presenter chose which columns to include using both the train and test data, and the effect this had on his medical research, watch: [Cross Validation: Right and Wrong](https://www.youtube.com/watch?v=S06JpVoNaA0&list=PL5-da3qGB5IA6E6ZNXu7dp89_uv8yocmf)
+<img src='/images/2_vs_1.png'>
 
+The base model had an mean cross validated accuracy of 68.7%.  The new model has a mean cross validated accuracy of 70.2%.
 
+The new model is very slightly better.
 
+For a discussion on how to compare models based on cross validated scores, see my post: [Model Selection](/posts/model_comparison/)
+
+#### Next
+
+For the next iteration, we will perform a better imputation of the missing Age value by using groups.

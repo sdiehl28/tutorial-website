@@ -32,8 +32,15 @@ html {
 }
 
 header nav.shortcuts li a:active, header nav.shortcuts li a:focus, header nav.shortcuts li a:hover {
-    background-color: #428bff;
+    background-color: #3079b8;
 }
+
+/*
+strong {
+ font-weight: bold;
+}
+*/
+
 /* p {
   margin-top: -0.5em;
 } */

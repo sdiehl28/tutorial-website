@@ -1,32 +1,46 @@
-+++
-title = "Establish Baseline Model"
-description = ""
-weight = 10
-alwaysopen = false
-lastmod = 2018-03-06
-+++
+---
+title: "Create Baseline Model"
+description: ""
+weight: 10
+alwaysopen: false
+lastmod: 2018-04-29
+typora-root-url: /home/agni/SoftwareProjects/Sites/tutorial/static/
+---
+#### Jupyter Notebook: <a href="http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/projects/Titanic01.ipynb" target="_blank">Create Baseline Model</a>
+### Notebook Goals
+* Create simple baseline model
+* Perform Exploratory Data Analysis
+* Demonstrate details of Scikit Learn's:
+  * KFold
+  * StratifiedKFold (with shuffle=True and shuffle=False)
+  * cross_val_score
+* Measure baseline model's score and compare against null model
 
-### Establish Baseline Model
+<div class="alert alert-success">
+<strong>Tip:</strong> The Jupyter Notebook link above provides the discussion and code.  This web page is just a minimal summary.
+</div>
 
-Jupyter Notebook: [Baseline Model](http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/projects/Titanic01.ipynb)
+### Notebook Results  
+* Data was preprocessed in a simple way
+* LogisticRegression model was created
+* Null model (aka DummyClassifier) was created
+* Both models were scored by accuracy using 10 fold cross validation (CV) with the same random_state.
+* How Scikit Learn implements CV with StratifiedKFold (shuffle=True) and cross_val_score was discussed
 
-The first iteration is about:
+The base model demonstrates a simple use of LogisticRegression.
 
-* quickly getting a model working
-* establishing a baseline level of accuracy
+The null model predicts the predominant class for every prediction.
 
-Quickly getting a model working is analogous to the software engineering concept of creating a [skeleton](https://en.wikipedia.org/wiki/Skeleton_(computer_programming)).
+The following is a boxplot of the 10 cross validated accuracy scores.
 
-Once you have a model running, you can gradually improve it by repeatedly iterating over each step.
+<img src='/images/base_vs_null.png'>
 
-Improvement is something that should be measured. For a predictive model, the model's accuracy is a simple measure of its value.
+The base model had an mean cross validated accuracy of 68.7%.  The null model had a mean cross validated accuracy of 61.6%.
 
-As you strive to continually improve your model's accuracy, you should keep a record of what you did, both the successes and failures. Understanding what steps improve your model can provide valuable insights into how your input variables relate to your prediction.
+The base model is significantly better than the null model.
 
-Keeping track of how you built your model is part of [Repeatable Research](https://en.wikipedia.org/wiki/Reproducibility).
+For a discussion on how to compare models based on cross validated scores, see my post: [Model Selection](/posts/model_comparison/)
 
-Repeatability is key to allowing yourself and others to check your work for subtle errors, such as leakage from the test data into the model building process, and for clues on how to improve the model further.
+#### Next
 
-### Evaluate Model Performance
-
-The Jupyter Notebook discussed both train/test split and cross validation as method to estimate the model's performance on out-of-sample data.
+Improve the model by replacing missing Age values with the mean Age value and use the Age variable in the model.

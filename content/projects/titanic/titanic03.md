@@ -1,22 +1,31 @@
-+++
-title = "Titantic 03"
-description = ""
-weight = 30
-alwaysopen = false
-lastmod = 2018-03-03
-+++
+---
+title: "Custom Transformers"
+description: ""
+weight: 30
+alwaysopen: false
+lastmod: 2018-04-29
+typora-root-url: /home/agni/SoftwareProjects/Sites/tutorial/static/
+---
+#### Jupyter Notebook: <a href="http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/projects/Titanic03.ipynb" target="_blank">Custom Transformers</a>
 
-### Iteration 3: Pipelines
+### Notebook Goals  
+* Perform better Age imputation
+* To avoid data leakage, this requires creating a custom Transform class. Demonstrate this
+* Understand Panda's GroupBy in detail for use in the custom Transform class
+* As part of iterative model development, check if this improves the model's accuracy
 
-Jupyter Notebook: [Impute Age](http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/projects/Titanic01.ipynb)
+### Notebook Results
+* showed how to create a custom Transform object to perform custom Imputation
+* examined the GroupBy objects in detail
+* performed custom Age Imputation without data leakage
 
-This Jupyter Notebook is more instructional than functional.
+This iteration uses custom Age imputation to better replace missing Age values based on the values of (Pclass, Sex).
 
-One type of overfitting is Test Set Leakage.  This occurs when you look at your test data prior to building your model.
+The folowing boxplot shows the 10 cross validated scores for this iteration and the previous iteration.
+<img src='/images/3_vs_2.png'>
 
-A model is trained on a train dataset and evaluated on a test dataset.  In cross validation, to be discussed later, this is performed multiple times.
+The new model's mean accuracy is 70.9% which is slightly better than the previous iteration of 70.2%.
 
-For a wonderful anecdotal story by one of the luminaries of Statistical Machine Learning, Robert Tibshirani, in which a Ph.D. oral dissertation presenter chose which columns to include using both the train and test data, and the effect this had on his medical research, watch: [Cross Validation: Right and Wrong](https://www.youtube.com/watch?v=S06JpVoNaA0&list=PL5-da3qGB5IA6E6ZNXu7dp89_uv8yocmf)
+#### Next
 
-
-
+For the next iteration, we will use one-hot encoding to make direct use of two more variables, Sex and Embarked.

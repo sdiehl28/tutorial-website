@@ -18,7 +18,7 @@ You my prefer Python if you have a developer background, or intend to implement 
 
 It is worthwhile to carefully consider each before proceeding in your education.  Some people are naturally drawn towards one or the other.  The two approaches are different enough that you should pick one and stick with it for at least 6 months before learning the other.  If you try to learn both at the same time, you may find it confusing.
 
-I found it easier to learn Data Science and Machine Learning concepts in R.  Hadley Wickham's packages modernize R and make it easily accessible to those who already know SQL, for example.
+Personally, I found it easier to learn Data Science and Machine Learning concepts in R.  Hadley Wickham's packages modernize R and make it easily accessible to those who already know SQL, for example.
 
 On the other hand, I feel it is more practical to implement solutions in a business environment in Python.  A software development team will likely have experience with Python and such [DevOps ](https://en.wikipedia.org/wiki/DevOps) practices as unit testing, continuous integration, Docker, etc.  Whereas a R user is not often found on a software development team and rarely has exposure to [DevOps ](https://en.wikipedia.org/wiki/DevOps) (or [DataOps](https://en.wikipedia.org/wiki/DataOps)) which is essential for deploying real-world solutions.
 

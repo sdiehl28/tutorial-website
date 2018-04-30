@@ -12,4 +12,4 @@ If you compliment the DataCamp courses with resources such as those mentioned in
 
 Both the R track and the Python track are excellent.  As you might expect, the R track has more emphasis on statistics and the Python track has more emphasis on software development.
 
-I enjoyed taking both tracks.  I found it helped to see the same topics presented in two different languages.  That said, I am a professional software developer who is comfortable with many programming languages.  In general, I would recommend that you chose either Python or R and stick to one, and only one, for at least 6 months.  The differences between the two are significant and until you are well grounded in one, moving on to the other may be confusing.
+I enjoyed taking both tracks.  I found it helped to see the same Data Science and Machine Learning topics presented in two different ways.  That said, I would recommend that you chose either Python or R and stick to one and only one, for at least 6 months.  The differences between the two are significant and until you are well grounded in one, moving on to the other may be confusing.
