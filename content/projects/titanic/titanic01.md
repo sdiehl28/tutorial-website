@@ -6,8 +6,9 @@ alwaysopen: false
 lastmod: 2018-04-29
 typora-root-url: /home/agni/SoftwareProjects/Sites/tutorial/static/
 ---
-#### Jupyter Notebook: <a href="http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/projects/Titanic01.ipynb" target="_blank">Create Baseline Model</a>
-### Notebook Goals
+
+#### Notebook:  <a href="http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/projects/Titanic01.ipynb" target="_blank">Create Baseline Model</a>
+#### Goals
 * Create simple baseline model
 * Perform Exploratory Data Analysis
 * Demonstrate details of Scikit Learn's:
@@ -20,18 +21,14 @@ typora-root-url: /home/agni/SoftwareProjects/Sites/tutorial/static/
 <strong>Tip:</strong> The Jupyter Notebook link above provides the discussion and code.  This web page is just a minimal summary.
 </div>
 
-### Notebook Results  
+#### Results  
 * Data was preprocessed in a simple way
 * LogisticRegression model was created
 * Null model (aka DummyClassifier) was created
-* Both models were scored by accuracy using 10 fold cross validation (CV) with the same random_state.
+* Both models were scored by accuracy using cross validation (CV)
 * How Scikit Learn implements CV with StratifiedKFold (shuffle=True) and cross_val_score was discussed
 
-The base model demonstrates a simple use of LogisticRegression.
-
-The null model predicts the predominant class for every prediction.
-
-The following is a boxplot of the 10 cross validated accuracy scores.
+The following is a boxplot of the base model and the null mode using 10 cross validated accuracy scores.
 
 <img src='/images/base_vs_null.png'>
 

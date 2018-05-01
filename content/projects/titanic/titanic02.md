@@ -3,11 +3,11 @@ title: "Cross Validation"
 description:  ""
 weight: 20
 alwaysopen: false
-lastmod: 2018-04-29
+lastmod: 2018-05-01
 typora-root-url: /home/agni/SoftwareProjects/Sites/tutorial/static/
 ---
-#### Jupyter Notebook: <a href="http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/projects/Titanic02.ipynb" target="_blank">Cross Validation</a>
-### Notebook Goals  
+#### Notebook: <a href="http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/projects/Titanic02.ipynb" target="_blank">Cross Validation</a>
+#### Goals  
 * Add Age to the model (requires imputation of missing values)
 * Demonstrate the right and wrong way to perform Cross Validation
 * Compare this model with the previous iteration
@@ -16,12 +16,12 @@ typora-root-url: /home/agni/SoftwareProjects/Sites/tutorial/static/
 <strong>Tip:</strong> The Jupyter Notebook link above provides the discussion and code.  This web page is just a minimal summary.
 </div>
 
-### Notebook Results  
+#### Results  
 
 * Added Age to the model
 * Imputed the missing Age values
 * Showed the right and wrong way to setup for cross validation
-* Used Imputation as part of a Pipeline, along with cross_val_score. This improves the quality of the software as it concisely performs cross validation correctly
+* Used Imputation as part of a Pipeline, along with cross_val_score.
 
 This iteration adds Age to the model.
 

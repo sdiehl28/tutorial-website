@@ -11,7 +11,7 @@ Some of the material for this post comes from my understanding of the following:
 
 ### Model Selection Problem
 
-We make a change to the model and want to see if it has higher "accuracy".  Here I will use "accuracy" as a generic term for any performance metric of interest that we wish to improve.
+A model is changed and we would like to see if it has higher "accuracy".  Here I will use "accuracy" as a generic term for any performance metric of interest that we wish to improve.
 
 ### Cross Validation Setup
 
@@ -65,11 +65,11 @@ There doesn't seem to be a general consensus yet as to whether or not repeated c
 
 A key assumption for most statistical tests of significance is independent data.  Cross Validation is based on overlapping data sets which are not independent.
 
-The most obvious statistical test (to someone with some statistics background) is the paired t-test.  It is paired because we have scores that were computed over the same train/test splits.  However given that the assumption of independence is violated, this renders the paired t-test almost meaningless.  That said, there are data scientists who use it, or uses it with "5x2CV" (2-fold cross validation repeated 5 times followed by a paired t-test), but the general feeling appears to be that the assumptions of the paired t-test are violated, therefore the paired t-test should not be used.
+The most obvious statistical test to compare two sets of cross validated scores is the paired t-test.  It is paired because we have scores that were computed over the same train/test splits.  However given that the assumption of independence is violated, this renders the paired t-test almost meaningless.  That said, there are data scientists who use it, or uses it with "5x2CV" (2-fold cross validation repeated 5 times followed by a paired t-test), but the general feeling appears to be that the assumptions of the paired t-test are violated, therefore the paired t-test should not be used.
 
-A non-parametric test similar to the paired t-test is the Wilcoxon Rank Sum Test.  This test makes fewer assumptions about the underlying data.  Common sense might say that we could use this test, as one tool in our tool box, to help us decide which model to chose but relying on it exclusively is probably not a good idea.
+A non-parametric test similar to the paired t-test is the Wilcoxon Rank Sum Test.  This test makes fewer assumptions about the underlying data.  Common sense says we could use this test, as one tool in our tool box, to help us decide which model to chose but relying on it exclusively is probably not a good idea.
 
-For a very large data set, Cross Validation is unnecessary.  The models could be built on two or more non-overlapping training sets and evaluated on one or more test sets.  If the models being compared are trained on the same training sets,  and evaluated on the same test sets, then it may make sense to use the Wilcoxon Rank Sum test.  This due to the data being more likely to be independent than when Cross Validation is used.
+For a very large data set, Cross Validation is unnecessary.  The models could be built on two or more non-overlapping training sets and evaluated on one or more test sets.  If the models being compared are trained on the same training sets,  and evaluated on the same test sets, then it may make sense to use the Wilcoxon Rank Sum test.
 
 #### Other Tools for Model Selection
 
@@ -79,6 +79,8 @@ We could informally decide that if one model does better than another most of th
 
 In *Introduction to Statistical Learning*, when they are considering the validation curve of model performance on the test set vs model complexity, they suggest using the simplest model that is within one standard deviation of the best test score.  This heuristic says that simpler is better, up to (an estimated) 1 standard deviation's worth of performance.  Given that the authors are experts in their field, this seems like an excellent technique for combining Occam's Razor with estimated model performance.
 
-### Technique Used for this Website
+### Model Selection Criteria Used for this Website
 
-For most of my Jupyter Notebooks, I will ensure that the models were run with the same random_state, so the cross validation scores are directly comparable.  I will then display a boxplot of each model's cross validated scores, and if these look similar by eye, I will subtract one from the other and create a boxplot of the paired differences.  I may also compute a "win/tie/loss" count to compare how many times one model did better than the other over the same train/test splits.
+The models being compared will be run with the same random_state.  This makes the cross validation scores directly comparable.
+
+In most cases, displaying a boxplot of each model's cross validated scores is enough to determine by eye which model is better.  However if the model's performance is close, I will subtract the corresponding scores from each other and create a boxplot of the differences.  I will also compute a "win/tie/loss" count for comparison.

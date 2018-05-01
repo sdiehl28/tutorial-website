@@ -12,11 +12,11 @@ typora-root-url: /home/agni/SoftwareProjects/Sites/tutorial/static/
 
 ### Website Goals
 
-In creating this website, I had to carefully consider what I could offer that is different from what is already available.  There are excellent books and online courses which teach Data Science and Machine Learning.  There are excellent code examples which implement these concepts.  In my Recommendations section, I have provided links to the best resources I have found for learning the concepts and seeing code in action.  So what can I offer that is different? 
+What distinguishes this website from many other resources on Data Science and Machine Learning?
 
-As a professional software developer with over 20 years of experience, and as someone who has an undergraduate degree in physics, I can understand the concepts in depth while offering a professional developer's perspective as how to use key APIs, such as Scikit Learn.
+There are many excellent books and online courses which teach Data Science and Machine Learning.  There are also excellent code examples which implement these concepts. In my Recommendations section, I have provided links to some of the best resources I have found. So what can I provide that is different?
 
-Over the years, I have learned many APIs and I have learned how to learn a new API.  The knowledge I would like to pass on to the reader is how to gain confidence using Scikit Learn and related APIs to solve real world Data Science and Machine Learning problems.
+As a 20-plus year professional software developer, I can offer a software developer's perspective on how to use, and how to learn how to use, APIs such as the Scikit Learn API.  As someone with an undergraduate degree in physics, I can present a scientific approach to problem solving.
 
 Gaining confidence with an API comes through experimenting with specific use cases of its key methods.  Just as a scientist keeps a notebook of their experimental setup, results and analysis, so too can a data scientist or a someone learning how to use an API.  Juptyer Notebooks are a wonderful tool for this.
 
