@@ -6,7 +6,7 @@ alwaysopen: false
 lastmod: 2018-05-01
 typora-root-url: /home/agni/SoftwareProjects/Sites/tutorial/static/
 ---
-#### Notebook: <a href="http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/projects/Titanic02.ipynb" target="_blank">Cross Validation</a>
+#### Notebook: <a href="http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/projects/titanic/Titanic02.ipynb" target="_blank">Cross Validation</a>
 #### Goals  
 * Add Age to the model (requires imputation of missing values)
 * Demonstrate the right and wrong way to perform Cross Validation

@@ -6,7 +6,7 @@ alwaysopen: false
 lastmod: 2018-05-01
 typora-root-url: /home/agni/SoftwareProjects/Sites/tutorial/static/
 ---
-#### Notebook: <a href="http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/projects/Titanic04.ipynb" target="_blank">Categorical Encoding</a>
+#### Notebook: <a href="http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/projects/titanic/Titanic04.ipynb" target="_blank">Categorical Encoding</a>
 #### Goals  
 * Discuss Categorical Encoding
 * Demonstrate One Hot Encoding

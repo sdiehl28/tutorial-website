@@ -2,12 +2,12 @@
 title: "Create Baseline Model"
 description: ""
 weight: 10
-alwaysopen: false
+alwaysopen: true
 lastmod: 2018-04-29
 typora-root-url: /home/agni/SoftwareProjects/Sites/tutorial/static/
 ---
 
-#### Notebook:  <a href="http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/projects/Titanic01.ipynb" target="_blank">Create Baseline Model</a>
+#### Notebook:  <a href="http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/projects/titanic/Titanic01.ipynb" target="_blank">Create Baseline Model</a>
 #### Goals
 * Create simple baseline model
 * Perform Exploratory Data Analysis
