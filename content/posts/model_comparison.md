@@ -1,86 +1,46 @@
-+++
-title = "Model Selection"
-description = ""
-weight = 30
-lastmod = 2018-04-27
-+++
-Some of the material for this post comes from my understanding of the following:
+---
+title: "Model Selection"
+description: ""
+weight: 30
+lastmod: 2018-05-04
+typora-root-url: /home/agni/SoftwareProjects/Sites/tutorial/static/
+---
+We make a change to a model and we would like to know if it is "better" according to some measure.
 
-* [Statistical Comparisons of Classifiers over Multiple Data Sets](http://www.jmlr.org/papers/v7/demsar06a.html)
-* [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/)
+#### Statistical Approach
 
-### Model Selection Problem
+We could try to formalize this with statistics, but the model evaluation data we have is usually in the form of cross validated scores.  Cross validated scores are the result of building models on overlapping data.  Overlapping data is not independent, so most statistical tests will not provide accurate results.
 
-A model is changed and we would like to see if it has higher "accuracy".  Here I will use "accuracy" as a generic term for any performance metric of interest that we wish to improve.
+Occasionally statistical tests are used, such as "5x2CV", which is 2-fold cross validation repeated 5 times followed by a paired t-test.  But as the data is not independent, it's hard to say how much value this test provides.
 
-### Cross Validation Setup
+If there is enough data that Cross Validation isn't necessary; for example, building models using non-overlapping subsets of the data for training and evaluating these models on non-overlapping subsets of the data for testing, then as per [Statistical Comparisons of Classifiers over Multiple Data Sets](http://www.jmlr.org/papers/v7/demsar06a.html) a statistical test such as the Wilcox Rank Sum test could be used.
 
-The cross validation scores for the models being compared should be made over the same train/test splits.  This can be done by using the same random_state parameter for each.
+#### Informal Approach
 
-### Model Selection Scenarios
+Usually a less formal comparison is performed, such as displaying a boxplot of the cross validated scores.  If the models being compared were run with the same random_state parameter, producing the same train/test splits, then the cross validated scores can be compared by eye with a box plot.  If the model's performance is close, it may be helpful to subtract the corresponding scores from each other and display a boxplot of the differences, or tally up the "wins/ties/losses" per train/test split, to get a better sense of which model may be best.
 
-Suppose we compute the mean score of the cross validation scores and it is slightly better than the previous version.  How do we know if it really is better, or it is just better by chance due to noise in the measured scores?
+#### Comparing Scores
 
-We could measure the variance of each set of cross validated scores as a measure of inherent "noise".  We could compare the means of the two sets of cross validated scores and see if the difference in the means is above some measure of the noise, and if so, declare that the new model has a "statistically significant" difference.
+It is worthwhile to consider Occam's razor: given two equivalent choices we prefer the simpler of the two.  Choosing the simpler model, often leads to models that generalize better on new data.
 
-Before diving into this further, it is helpful to step back and consider the big picture.  We are considering choosing one model over another, but what is the context?
+In [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/) they propose a heuristic, in conjunction with the validation curve which plots test set performance vs model complexity, that choosing the simplest model within one standard deviation of the best model's score is a good choice.  The idea being that two models differing by one standard deviation are essentially equivalent, so pick the simpler of the two.
 
-**Scenario 1**
+Although "standard deviation" is easy to define and calculate on a set of cross validated scores, the distribution of the cross validated scores is not normal (and is not known) as the data it is derived from is not independent.  This means the actual confidence interval will be larger than that computed assuming a normal (or t) distribution. 
 
-We have a prediction model running in production.  We are considering making a change that will cost time and money to implement.  We would like some assurance that the new model is not just barely better than the old model, but rather that the extra revenue we get from the new model being more accurate more than offsets the cost to implement it.  That is, we are looking for "practical significance" and this requires a cost/benefit analysis.
+Cross Validation may introduce a bias in the point-estimate of a model's accuracy, but it's likely this bias is similar for both model's under consideration.  This means that the bias does not affect the determination of which model is best.  This also means that using the cross validated score for a single model about to be deployed to a production environment is somewhat risky.  There could be bias in the point-estimate.  And if a confidence interval about that point-estimate is computed assuming that the cross validated scores are normally (or t) distributed, than that confidence interval would be too narrow (for the specified probability level).
 
-**Scenario 2**
+The standard deviation of the cross validated scores is likely useful as a relative measure of variance.  For example, given two models with about the same mean cross validated score, but one has a much higher standard deviation than the other, the "best" model would likely be the one with the lower standard deviation.
 
-We are publishing an academic paper or writing a blog post.  If we see a statistically significant difference, we would like to explore why the latest model change resulted in an improvement.
+#### Cost to Deploy
 
-**Scenario 3**
+There may be a cost associated with deploying a new model.  If we have a proposed model that is more accurate than a model already running in production, we need to compare an estimate of the cost to deploy the new model relative to an estimate of the profit the new model will provide, in order to decide what to do.
 
-A submodule of our prediction system is running code that automatically picks the best version of the model based on the best score.  The automated submodule needs to pick a model in order to continue.  If both models are effectively the same, then it doesn't matter which model gets chosen by selecting the mode with the best score.
-
-**Summary**
-
-Deciding which is the "best" model to pick depends upon your use of that model.  There is no one way to define "best".
-
-It is also worthwhile to consider Occam's razor: given two equivalent choices we prefer the simpler of the two.  This choice often leads to models that generalize better on new data.
-
-#### Cross Validation
-
-Cross validation can be used to:
-
-- estimate the performance of a model
-- compare two different models
-- compare the same model having different hyper parameters
-
-Cross Validation may introduce a bias into the point-estimate of a model's accuracy, but if this bias is similar for all the models under consideration, this bias does not matter.  Model comparison is effectively subtracting one model's scores from another, and if both are biased in similar ways, the bias cancels outs.  This makes cross validation excellent for model comparison.
-
-If only one model is being considered, we need to be more cautious.  There may be no better way to estimate how it will perform on out-of-sample data, but it may not be as accurate as the spread of the cross validated scores suggest.
+Or there my be no cost associated with deploying a new model.  If we have a submodule of our prediction system that just needs to pick the "best" model in order to move forward, having code which automatically choose the "best" model based on mean CV score may be fine.
 
 #### Repeated Cross Validation
 
-The idea behind repeated cross validation is that by repeating the entire cross validation process (using different train/test splits) we acquire more estimates of the model's scores.  And if these additional estimates are independent then we could, for example, average them to create a better point-estimate of the model's score.  However the estimates are not independent.  Cross Validation, and to an even greater extent, Repeated Cross Validation, uses overlapping data sets.  Overlapping data is, by definition, not independent.
+Repeated cross validation, which is repeating the cross validation process a number of times with different train/test splits, may not improve the point-estimate of the model's score or narrow it's variance estimate because it is using even more overlapping data than regular cross validation.  In general, it may be best to avoid this technique unless you have a specific reason for using it.
 
-There doesn't seem to be a general consensus yet as to whether or not repeated cross validation improves the point-estimate of the model's score.  It almost certainly does not improve the variance estimate of the model's score as this is strongly affected by non-independent data.
+### Summary
 
-#### Statistical Significance
-
-A key assumption for most statistical tests of significance is independent data.  Cross Validation is based on overlapping data sets which are not independent.
-
-The most obvious statistical test to compare two sets of cross validated scores is the paired t-test.  It is paired because we have scores that were computed over the same train/test splits.  However given that the assumption of independence is violated, this renders the paired t-test almost meaningless.  That said, there are data scientists who use it, or uses it with "5x2CV" (2-fold cross validation repeated 5 times followed by a paired t-test), but the general feeling appears to be that the assumptions of the paired t-test are violated, therefore the paired t-test should not be used.
-
-A non-parametric test similar to the paired t-test is the Wilcoxon Rank Sum Test.  This test makes fewer assumptions about the underlying data.  Common sense says we could use this test, as one tool in our tool box, to help us decide which model to chose but relying on it exclusively is probably not a good idea.
-
-For a very large data set, Cross Validation is unnecessary.  The models could be built on two or more non-overlapping training sets and evaluated on one or more test sets.  If the models being compared are trained on the same training sets,  and evaluated on the same test sets, then it may make sense to use the Wilcoxon Rank Sum test.
-
-#### Other Tools for Model Selection
-
-Given that each model is being compared on the same train/test split, we can subtract the scores of one model from the other and look at the differences.  We could display a box plot of these differences.  This would provide a visual overview of how the model's compare to one another.
-
-We could informally decide that if one model does better than another most of the time, then this is the better model.  However we cannot formalize this with, for example a binomial test of the number of "wins/losses", as the assumption of independent data is not met.
-
-In *Introduction to Statistical Learning*, when they are considering the validation curve of model performance on the test set vs model complexity, they suggest using the simplest model that is within one standard deviation of the best test score.  This heuristic says that simpler is better, up to (an estimated) 1 standard deviation's worth of performance.  Given that the authors are experts in their field, this seems like an excellent technique for combining Occam's Razor with estimated model performance.
-
-### Model Selection Criteria Used for this Website
-
-The models being compared will be run with the same random_state.  This makes the cross validation scores directly comparable.
-
-In most cases, displaying a boxplot of each model's cross validated scores is enough to determine by eye which model is better.  However if the model's performance is close, I will subtract the corresponding scores from each other and create a boxplot of the differences.  I will also compute a "win/tie/loss" count for comparison.
+For this website, I will use an informal comparison of cross validated scores displayed as boxplots.  If the model's performance is close, I will subtract the corresponding scores from each other and display that as a boxplot, as well as computing a "wins/ties/losses" tally to get a sense for which model may be best.
