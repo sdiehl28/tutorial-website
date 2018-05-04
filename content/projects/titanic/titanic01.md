@@ -9,24 +9,23 @@ typora-root-url: /home/agni/SoftwareProjects/Sites/tutorial/static/
 
 #### Notebook:  <a href="http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/projects/titanic/Titanic01.ipynb" target="_blank">Create Baseline Model</a>
 #### Goals
-* Create simple baseline model
 * Perform Exploratory Data Analysis
-* Demonstrate details of Scikit Learn's:
-  * KFold
-  * StratifiedKFold (with shuffle=True and shuffle=False)
-  * cross_val_score
-* Measure baseline model's score and compare against null model
+* Create simple baseline model
+* Measure performance using cross validation
+* Compare baseline model with null model
 
 <div class="alert alert-success">
 <strong>Tip:</strong> The Jupyter Notebook link above provides the discussion and code.  This web page is just a minimal summary.
 </div>
 
 #### Results  
-* Data was preprocessed in a simple way
-* LogisticRegression model was created
-* Null model (aka DummyClassifier) was created
-* Both models were scored by accuracy using cross validation (CV)
-* How Scikit Learn implements CV with StratifiedKFold (shuffle=True) and cross_val_score was discussed
+In this first iteration we:
+* performed EDA
+* preprocessed data in a simple way
+* created a simple LogisticRegression model
+* created a null model (aka DummyClassifier) for comparison
+* used cross validation to measure the accuracy of each model
+* discussed StratifiedKFold and KFold for use with cross validation
 
 The following is a boxplot of the base model and the null mode using 10 cross validated accuracy scores.
 
