@@ -2,7 +2,7 @@
 title: "Model Selection"
 description: ""
 weight: 30
-lastmod: 2018-05-04
+lastmod: 2018-05-07
 typora-root-url: /home/agni/SoftwareProjects/Sites/tutorial/static/
 ---
 We make a change to a model and we would like to know if it is "better" according to some measure.
@@ -25,7 +25,7 @@ It is worthwhile to consider Occam's razor: given two equivalent choices we pref
 
 In [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/) they propose a heuristic, in conjunction with the validation curve which plots test set performance vs model complexity, that choosing the simplest model within one standard deviation of the best model's score is a good choice.  The idea being that two models differing by one standard deviation are essentially equivalent, so pick the simpler of the two.
 
-Although "standard deviation" is easy to define and calculate on a set of cross validated scores, the distribution of the cross validated scores is not normal (and is not known) as the data it is derived from is not independent.  This means the actual confidence interval will be larger than that computed assuming a normal (or t) distribution. 
+Although "standard deviation" is easy to define and calculate on a set of cross validated scores, the distribution of the cross validated scores is not normal (and is not known) as the data it is derived from is not independent.  This means the actual prediction interval will be larger than that computed assuming a normal (or t) distribution. 
 
 Cross Validation may introduce a bias in the point-estimate of a model's accuracy, but it's likely this bias is similar for both model's under consideration.  This means that the bias does not affect the determination of which model is best.  This also means that using the cross validated score for a single model about to be deployed to a production environment is somewhat risky.  There could be bias in the point-estimate.  And if a confidence interval about that point-estimate is computed assuming that the cross validated scores are normally (or t) distributed, than that confidence interval would be too narrow (for the specified probability level).
 
