@@ -2,7 +2,7 @@
 title: "Create Baseline Model"
 description: ""
 weight: 10
-alwaysopen: true
+alwaysopen: false
 lastmod: 2018-04-29
 typora-root-url: /home/agni/SoftwareProjects/Sites/tutorial/static/
 ---
