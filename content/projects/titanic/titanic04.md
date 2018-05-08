@@ -16,13 +16,11 @@ typora-root-url: /home/agni/SoftwareProjects/Sites/tutorial/static/
 * Demonstrated one hot encoding for Sex and Embarked
 * Measured the new model's accuracy and found it was much better (80.0% vs 70.9%).
 
-The folowing boxplot shows the 10 cross validated scores for this iteration and the previous iteration.
+The following boxplot shows the 10 cross validated scores for this iteration and the previous iteration.
 <img src='/images/4_vs_3.png'>
 
-The scores are very much improved.  Encoding the Sex and Embarked variables as dummy variables and then including these features in the model, allowed for a significantly better model.
+The scores were slightly improved.  Encoding the Sex and Embarked variables as dummy variables and then including these features in the model, allowed for a significantly better model.
 
 #### Next
 
-Now that all the variables that are "easy" to make use of, have been used.  The improvement noted in the [first iteration](/projects/titanic/titanic01) will be tried.
-
-##### The Next notebook has not yet been written
+Now that all the variables that are "easy" to make use of, have been used.  The possible extracted features noted in the [first iteration](/projects/titanic/titanic01) will be tried.
