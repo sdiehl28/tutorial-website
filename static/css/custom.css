@@ -35,11 +35,9 @@ header nav.shortcuts li a:active, header nav.shortcuts li a:focus, header nav.sh
     background-color: #3079b8;
 }
 
-/*
-strong {
+.page strong {
  font-weight: bold;
 }
-*/
 
 /* p {
   margin-top: -0.5em;

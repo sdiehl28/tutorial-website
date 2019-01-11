@@ -18,14 +18,15 @@ typora-root-url: /home/agni/SoftwareProjects/Sites/tutorial/static/
 <strong>Tip:</strong> The Jupyter Notebook link above provides the discussion and code.  This web page is just a minimal summary.
 </div>
 
-#### Results  
+#### Results
 In this first iteration we:
-* performed EDA
-* preprocessed data in a simple way
-* created a simple LogisticRegression model
-* created a null model (aka DummyClassifier) for comparison
-* used cross validation to measure the accuracy of each model
-* discussed StratifiedKFold and KFold for use with cross validation
+
+- performed EDA
+- preprocessed data in a simple way
+- created a simple LogisticRegression model
+- created a null model (aka DummyClassifier) for comparison
+- used cross validation to measure the accuracy of each model
+- discussed StratifiedKFold and KFold for use with cross validation
 
 The following is a boxplot of the base model and the null mode using 10 cross validated accuracy scores.
 
