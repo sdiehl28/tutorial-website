@@ -1,7 +1,7 @@
 ---
 title: "Feature Extraction"
 description: ""
-weight: 50
+weight: 70
 alwaysopen: false
 lastmod: 2018-05-08
 typora-root-url: /home/agni/SoftwareProjects/Sites/tutorial/static/

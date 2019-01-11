@@ -1,7 +1,7 @@
 ---
 title: "Custom Transformers"
 description: ""
-weight: 30
+weight: 50
 alwaysopen: false
 lastmod: 2018-04-29
 typora-root-url: /home/agni/SoftwareProjects/Sites/tutorial/static/

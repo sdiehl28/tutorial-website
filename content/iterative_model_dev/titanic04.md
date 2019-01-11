@@ -1,7 +1,7 @@
 ---
 title: "Categorical Encoding"
 description: ""
-weight: 40
+weight: 60
 alwaysopen: false
 lastmod: 2018-05-01
 typora-root-url: /home/agni/SoftwareProjects/Sites/tutorial/static/
