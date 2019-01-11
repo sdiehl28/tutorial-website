@@ -1,9 +1,9 @@
----
-title: "UCSD"
-description: ""
-weight: 40
-lastmod: 2018-04-30
----
++++
+title = "UCSD"
+description = ""
+weight = 40
+lastmod = 2018-04-30
++++
 ### University of California, San Diego
 
 I received a bachelor's degree in physics from UCSD and very much enjoyed the time I spent there.

@@ -1,9 +1,9 @@
----
-title: "Data Science Track"
-description: ""
-weight: 10
-lastmod: 2018-04-30
----
++++
+title = "Data Science Track"
+description = ""
+weight = 10
+lastmod = 2018-04-30
++++
 #### Data Science Specialization
 
 The  [**Data Science Specialization**](https://www.coursera.org/specializations/jhu-data-science) is a 10 course specialization with the 10th course being a capstone project.  I completed and will review the first 8 courses.  The courses are taught by professors from John Hopkins University.  All courses are taught using R.

@@ -1,12 +1,12 @@
----
-title: "Preprocess vs Pipeline"
-description: ""
-weight: 40
-alwaysopen: true
-draft: true
-lastmod: 2018-05-08
-typora-root-url: /home/agni/SoftwareProjects/Sites/tutorial/static/
----
++++
+title = "Preprocess vs Pipeline"
+description = ""
+weight = 40
+alwaysopen = true
+draft = true
+lastmod = 2018-05-08
+typora-root-url = "/home/agni/SoftwareProjects/Sites/tutorial/static/"
++++
 
 The issue is how to avoid data leakage.
 

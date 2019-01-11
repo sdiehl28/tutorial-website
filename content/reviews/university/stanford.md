@@ -1,9 +1,9 @@
----
-title: "Stanford"
-description: ""
-weight: 20
-lastmod: 2018-04-30
----
++++
+title = "Stanford"
+description = ""
+weight = 20
+lastmod = 2018-04-30
++++
 #### Stanford University
 
 ##### Data Mining and Applications Graduate Certificate

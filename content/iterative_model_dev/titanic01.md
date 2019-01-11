@@ -1,11 +1,11 @@
----
-title: "Create Baseline Model"
-description: ""
-weight: 30
-alwaysopen: false
-lastmod: 2018-04-29
-typora-root-url: /home/agni/SoftwareProjects/Sites/tutorial/static/
----
++++
+title = "Create Baseline Model"
+description = ""
+weight = 30
+alwaysopen = false
+lastmod = 2018-04-29
+typora-root-url = "/home/agni/SoftwareProjects/Sites/tutorial/static/"
++++
 
 #### Notebook:  <a href="http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/projects/titanic/Titanic01.ipynb" target="_blank">Create Baseline Model</a>
 #### Goals

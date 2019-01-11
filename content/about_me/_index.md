@@ -1,10 +1,10 @@
----
-title: "Myself"
-date: 2018-02-24T18:16:34-08:00
-weight: 420
-lastmodifierdisplayname: " by Stephen Diehl"
-lastmod: 2019-01-10
----
++++
+title = "Myself"
+date = 2018-02-24T18:16:34-08:00
+weight = 420
+lastmodifierdisplayname = " by Stephen Diehl"
+lastmod = 2019-01-10
++++
 I have a Bachelor's Degree in Physics from the University of California, San Diego.
 
 When I put on my scientist's hat, my aim is to present a scientific approach to model building.  Physics is the modeling of the world through mathematics.  Machine Learning is the modeling of data through computer algorithms.  These mindsets are very similar.

@@ -1,11 +1,11 @@
----
-title: "Pandas Access Specification"
-description: ""
-weight: 50
-alwaysopen: true
-lastmod: 2018-05-03
-typora-root-url: /home/agni/WebSites/published/tutorial-website/static/
----
++++
+title = "Pandas Access Specification"
+description = ""
+weight = 50
+alwaysopen = true
+lastmod = 2018-05-03
+typora-root-url = "/home/agni/WebSites/published/tutorial-website/static/"
++++
 
 If you are coming to Python's Numpy and Pandas from another language such as R, then the "axis specification" may seem reversed.  That is, specifying the axis to be "rows" seems to act like a column specification and vice versa.
 

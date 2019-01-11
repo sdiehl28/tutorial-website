@@ -1,11 +1,11 @@
----
-title: "Nested Cross Validation"
-description: ""
-weight: 30
-draft: false
-lastmod: 2018-05-09
-typora-root-url: /home/agni/SoftwareProjects/Sites/tutorial/static/
----
++++
+title = "Nested Cross Validation"
+description = ""
+weight = 30
+draft = false
+lastmod = 2018-05-09
+typora-root-url = "/home/agni/SoftwareProjects/Sites/tutorial/static/"
++++
 [Cross Validated](https://stats.stackexchange.com/), an excellent source for information about machine learning, statistics and related subjects, has several questions regarding Nested Cross Validation.  These questions include:
 
 * what is it?

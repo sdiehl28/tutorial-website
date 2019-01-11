@@ -1,9 +1,9 @@
----
-title: "Statistics with R Track"
-description: ""
-weight: 20
-lastmod: 2018-04-30
----
++++
+title = "Statistics with R Track"
+description = ""
+weight = 20
+lastmod = 2018-04-30
++++
 ### Statistics with R Specialization
 The [**Statistics with R Specialization**](https://www.coursera.org/specializations/statistics) is a 5 course specialization with the 5th course being a capstone project.  I completed and will review the first 3 courses.  The courses are taught by professors from Duke University. Mine Cetinkaya-Rundal teaches the first 3 courses.
 

@@ -1,10 +1,10 @@
----
-title: "Model Selection"
-description: ""
-weight: 30
-lastmod: 2018-05-07
-typora-root-url: /home/agni/WebSites/published/tutorial-website/static/
----
++++
+title = "Model Selection"
+description = ""
+weight = 30
+lastmod = 2018-05-07
+typora-root-url = "/home/agni/WebSites/published/tutorial-website/static/"
++++
 We make a change to a model and we would like to know if it is "better" according to some measure.
 
 #### Statistical Approach

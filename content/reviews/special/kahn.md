@@ -1,9 +1,9 @@
----
-title: "Kahn Academy"
-description: ""
-weight: 20
-lastmod: 2018-04-30
----
++++
+title = "Kahn Academy"
+description = ""
+weight = 20
+lastmod = 2018-04-30
++++
 Sal Kahn is an excellent teacher and his Kahn Academy is free.  Some classes are now taught by people other than Sal.  If you want free training on the fundamentals, I recommend:
 
 * [Calculus 1 & 2](https://www.khanacademy.org/math/calculus-home)

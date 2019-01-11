@@ -1,11 +1,11 @@
----
-title: "Website"
-date: 2018-02-24T18:16:34-08:00
-weight: 410
-head: "<label>About</label>"
-lastmodifierdisplayname: " by Stephen Diehl"
-lastmod: 2019-01-10
----
++++
+title = "Website"
+date = 2018-02-24T18:16:34-08:00
+weight = 410
+head = "<label>About</label>"
+lastmodifierdisplayname = " by Stephen Diehl"
+lastmod = 2019-01-10
++++
 ### Goals
 
 What distinguishes this website from many other resources on Python, Data Science and Machine Learning?

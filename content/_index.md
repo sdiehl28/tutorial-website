@@ -1,11 +1,11 @@
----
-title: "Home Page"
-description: "Home Page"
-creatordisplayname: "Stephen Diehl"
-lastmodifierdisplayname: " by Stephen Diehl"
-lastmod: 2019-01-10
-typora-root-url: /home/agni/WebSites/published/tutorial-website/static
----
++++
+title = "Home Page"
+description = "Home Page"
+creatordisplayname = "Stephen Diehl"
+lastmodifierdisplayname = " by Stephen Diehl"
+lastmod = 2019-01-10
+typora-root-url = "/home/agni/WebSites/published/tutorial-website/static"
++++
 
 # Data Science<br/> Machine Learning<br/> Python
 

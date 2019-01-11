@@ -1,11 +1,11 @@
----
-title: "Feature Extraction"
-description: ""
-weight: 70
-alwaysopen: false
-lastmod: 2018-05-08
-typora-root-url: /home/agni/SoftwareProjects/Sites/tutorial/static/
----
++++
+title = "Feature Extraction"
+description = ""
+weight = 70
+alwaysopen = false
+lastmod = 2018-05-08
+typora-root-url = "/home/agni/SoftwareProjects/Sites/tutorial/static/"
++++
 #### Notebook: <a href="http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/projects/titanic/Titanic05.ipynb" target="_blank">Feature Extraction</a>
 #### Goals  
 * In the first iteration of model building, several feature extraction ideas were presented. See: EDA

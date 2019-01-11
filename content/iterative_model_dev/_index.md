@@ -1,10 +1,10 @@
----
-title: "Iterative ML Model Development"
-description: ""
-weight: 20
-alwaysopen: false
-lastmod: 2018-04-27
----
++++
+title = "Iterative ML Model Development"
+description = ""
+weight = 20
+alwaysopen = false
+lastmod = 2018-04-27
++++
 Building a predictive model is an iterative process.  The goal is to quickly get something working and then evolve the model as seems best after analysis of the previous model.
 
 At the highest level, the Model Development Process is:

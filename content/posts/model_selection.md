@@ -1,11 +1,11 @@
----
-title: "Model Selection"
-description: ""
-weight: 30
-draft: false
-lastmod: 2018-05-14
-typora-root-url: /home/agni/SoftwareProjects/Sites/tutorial/static/
----
++++
+title = "Model Selection"
+description = ""
+weight = 30
+draft = false
+lastmod = 2018-05-14
+typora-root-url = "/home/agni/SoftwareProjects/Sites/tutorial/static/"
++++
 The following papers greatly influenced this post and I would recommend reading them.  This post attempts to present a simple summary of these ideas.
 
 * [On over-fitting in model selection and subsequent selection bias in performance evaluation](http://www.jmlr.org/papers/volume11/cawley10a/cawley10a.pdf)
