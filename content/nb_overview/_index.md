@@ -4,19 +4,23 @@ description = ""
 weight = 10
 alwaysopen = false
 head = "<label>Jupyter Notebooks</label>"
-lastmod = 2018-05-03
+lastmod = 2019-01-11
 
 +++
 
-Each project uses a single dataset and develops concepts with successive Jupyter Notebooks.  The theme of the first project is "Iterative Model Development".
+Using a Jupyter Notebook is perhaps the easiest way to learn and experiment with code.
+
+You can download my Jupyter Notebooks from: [Jupyter Notebook Repo](https://github.com/sdiehl28/tutorial-jupyter-notebooks)
+
+All the links on this website use nbviewer to display my Jupyter Notebooks.  Simply clicking on the link will cause my notebook to be rendered read-only in your browser.  For example:  [Show Versions](
+http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/snippets/ShowVersions.ipynb)
+
+An alternative is to use the following link: [My Jupyter Notebook Repo via Binder](https://mybinder.org/v2/gh/sdiehl28/tutorial-jupyter-notebooks/master).  It may take a minute for the docker image to spin up on binder and then you can interactively work with my Jupyter Notebooks.
 
 ### Software Versions
 
-To see what versions of the software library this website uses:
-<a href="http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/snippets/ShowVersions.ipynb" target="_blank">Show Versions</a>
+The software versions used by my Jupyter Notebooks can be seen with: [Show Versions](
+http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/snippets/ShowVersions.ipynb)
 
 You should use similar or newer versions to ensure you get the same results.
 
-### Binder
-
-[Binder](https://mybinder.org/) is an awesome tool for executing Jupyter Notebooks found in a github directory.  All the links on this website use nbviewer to display my Jupyter Notebooks, however an excellent alternative is to use the following link for my github repo: [My Jupyter Notebook Repo via Binder](https://mybinder.org/v2/gh/sdiehl28/tutorial-jupyter-notebooks/master).  It may take a moment while a docker image spins up in the background and allows for Jupyter Notebook execution.

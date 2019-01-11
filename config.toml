@@ -12,6 +12,10 @@ defaultContentLanguage = "en"
 defaultContentLanguageInSubdir= false
 enableMissingTranslationPlaceholders = false
 
+# all external links open in new tab
+[blackfriday]
+  hrefTargetBlank = true
+
 [params]
 # editURL = "https://github.com/vjeantet/hugo-theme-docdock/edit/master/exampleSite/content/"
 showVisitedLinks = true # default is false
