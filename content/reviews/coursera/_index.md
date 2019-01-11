@@ -1,7 +1,7 @@
 +++
 title = "Coursera"
 description = ""
-weight = 20
+weight = 220
 lastmod = 2018-04-30
 +++
 Coursera courses are taught by college professors from excellent universities such as Standford, John Hopkins, Duke, etc.  These courses are more practical than typical college courses, but still emphasize fundamentals more than many other DS and ML online courses.

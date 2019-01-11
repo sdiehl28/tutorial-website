@@ -3,20 +3,22 @@ title = "Home Page"
 description = "Home Page"
 creatordisplayname = "Stephen Diehl"
 lastmodifierdisplayname = " by Stephen Diehl"
-lastmod = 2019-01-10
+lastmod = 2019-01-11
 typora-root-url = "/home/agni/WebSites/published/tutorial-website/static"
+
 +++
 
 # Data Science<br/> Machine Learning<br/> Python
 
 ### Overview
 
-This website has four sections:
+This website has five sections, each of which discuss Data Science, Machine Learning and Python:
 
-* **Jupyter Notebooks**: tutorials and examples
-* **Recommendations:** list of learning resources and online course reviews
-* **Posts:** about Python, Data Science and Machine Learning
-* **About:** the website and myself
+* **Jupyter Notebooks** with code with explanations
+* **Recommendations** for learning resources
+* **Course Reviews** of courses I have taken
+* **Posts** 
+* **About**
 
 ### Primary Libraries Discussed 
 - Python Standard Library

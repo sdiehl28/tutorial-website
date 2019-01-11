@@ -1,7 +1,7 @@
 +++
 title = "Data Camp"
 description = ""
-weight = 30
+weight = 230
 lastmod = 2018-02-25
 +++
 Data Camp has by far the best platform for learning how to write code for Data Science and Machine Learning for both Python and R.

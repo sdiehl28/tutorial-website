@@ -1,7 +1,7 @@
 +++
 title = "University"
 description = ""
-weight = 40
+weight = 240
 lastmod = 2018-04-30
 +++
 Attending a university, or taking online courses from a university, can be an excellent option.

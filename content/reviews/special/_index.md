@@ -1,7 +1,7 @@
 +++
 title = "Special Mention"
 description = ""
-weight = 60
+weight = 260
 lastmod = 2018-04-30
 +++
 Udemy and other low cost or free online courses such as Kahn Academy can be excellent.

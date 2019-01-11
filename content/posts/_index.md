@@ -1,5 +1,5 @@
 +++
-title = "Recent Posts"
+title = "Posts"
 description = ""
 weight = 310
 head = "<label>Posts</label>"

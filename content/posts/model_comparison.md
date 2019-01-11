@@ -1,7 +1,7 @@
 +++
 title = "Model Selection"
 description = ""
-weight = 30
+weight = 20
 lastmod = 2018-05-07
 typora-root-url = "/home/agni/WebSites/published/tutorial-website/static/"
 +++
