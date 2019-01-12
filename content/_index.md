@@ -8,7 +8,7 @@ typora-root-url = "/home/agni/WebSites/published/tutorial-website/static"
 
 +++
 
-# Data Science<br/> Machine Learning<br/> Python
+# Data Science<br/> Machine Learning<br/> and Python
 
 ### Overview
 

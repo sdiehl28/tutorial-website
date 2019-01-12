@@ -1,7 +1,7 @@
 +++
 title = "Iterative ML Model Development"
 description = ""
-weight = 20
+weight = 30
 alwaysopen = false
 lastmod = 2018-04-27
 +++
