@@ -8,21 +8,18 @@ lastmod = 2019-01-11
 
 +++
 
-Using a Jupyter Notebook is perhaps the easiest way to learn and experiment with code.
+Jupyter Notebooks are perhaps the easiest way to learn and experiment with code.
 
-You can download my Jupyter Notebooks from: [Jupyter Notebook Repo](https://github.com/sdiehl28/tutorial-jupyter-notebooks)
+Nbviewer is a free service which renders a link to a public Jupyter notebook as a read-only web page in your browser.  In addition, nbviewer offers the option to download the Jupyter Notebook it is displaying or execute it on Binder.
 
-All the links on this website use nbviewer to display my Jupyter Notebooks.  Simply clicking on the link will cause my notebook to be rendered read-only in your browser.  For example:  [Show Versions](
-http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/snippets/ShowVersions.ipynb)
+All the links on this website use nbviewer to display my Jupyter Notebooks.  Simply click on the link.  For example: [Show Versions](https://nbviewer.jupyter.org/github/sdiehl28/tutorial-website/blob/master/static/jupyter_nb/ShowVersions.ipynb)
 
- [Show Versions Test](https://nbviewer.jupyter.org/github/sdiehl28/tutorial-website/blob/master/static/jupyter_nb/ShowVersions.ipynb)
-
-An alternative is to use the following link: [My Jupyter Notebook Repo via Binder](https://mybinder.org/v2/gh/sdiehl28/tutorial-jupyter-notebooks/master).  It may take a minute for the docker image to spin up on binder and then you can interactively work with my Jupyter Notebooks.
+To use Binder from the nbviewer page, simply click on the 3 ring icon in the top right of the nbviewer page.  This will take you to the binder site where you will be allowed to execute the Jupyter Notebook.  For details about how this works see: [MyBinder How It Works](https://mybinder.org/#how-it-works)
 
 ### Software Versions
 
-The software versions used by my Jupyter Notebooks can be seen with: [Show Versions](
+The software versions I am using on my workstation, as of Jan 11th, 2019, can be seen with: [Show Versions](
 http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/snippets/ShowVersions.ipynb)
 
-You should use similar or newer versions to ensure you get the same results.
+In your development environment, you should probably use the same or later versions to ensure that you get the same results.
 
