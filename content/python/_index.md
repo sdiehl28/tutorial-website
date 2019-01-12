@@ -7,7 +7,7 @@ lastmod = 2019-01-11
 
 +++
 
-As of 2019, Python is the fastest growing programming language.
+As of January 2019, Python is the fastest growing programming language.
 
 Modern Data Science is likely the main reason for Python's recent rise in popularity.  Packages such as Pandas (data science) and Scikit Learn (machine learning) have become very popular.  Python is also a great general purpose language for web development, scripting and more.
 
@@ -30,7 +30,4 @@ That said, the real beauty and power of Python come from those aspects which are
 
 In the Jupyter Notebooks which follow, the purpose is not to teach Python per se, but rather to provide numerous examples of key points which may be unclear to the beginner.
 
-Rather than teach beginning Python on this website, I would recommend, among numerous excellent resources, the following:
-
-1. [Python Course on Udemy by Jose Portilla](https://www.udemy.com/complete-python-bootcamp/)
-2. [Tutorials and Blog Posts on Real Python](https://realpython.com/)
+There are many excellent resources for learning beginning Python.  Among these, I would recommend these [Udemy Courses](/reviews/special/udemy) as well as the tutorials at  [Real Python](https://realpython.com/).

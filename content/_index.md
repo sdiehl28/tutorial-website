@@ -12,13 +12,13 @@ typora-root-url = "/home/agni/WebSites/published/tutorial-website/static"
 
 ### Overview
 
-This website has five sections, each of which discuss Data Science, Machine Learning and Python:
+This website has five sections:
 
 * **Jupyter Notebooks** with code with explanations
 * **Recommendations** for learning resources
 * **Course Reviews** of courses I have taken
-* **Posts** 
-* **About**
+* **Posts** about Data Science, Machine Learning and Python
+* **About** this website and myself
 
 ### Primary Libraries Discussed 
 - Python Standard Library
