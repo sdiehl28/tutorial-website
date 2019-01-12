@@ -15,8 +15,7 @@ You can download my Jupyter Notebooks from: [Jupyter Notebook Repo](https://gith
 All the links on this website use nbviewer to display my Jupyter Notebooks.  Simply clicking on the link will cause my notebook to be rendered read-only in your browser.  For example:  [Show Versions](
 http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/snippets/ShowVersions.ipynb)
 
- [Show Versions Test](
-/jupyter_nb/ShowVersions.html)
+ [Show Versions Test](https://nbviewer.jupyter.org/github/sdiehl28/tutorial-website/blob/master/static/jupyter_nb/ShowVersions.ipynb)
 
 An alternative is to use the following link: [My Jupyter Notebook Repo via Binder](https://mybinder.org/v2/gh/sdiehl28/tutorial-jupyter-notebooks/master).  It may take a minute for the docker image to spin up on binder and then you can interactively work with my Jupyter Notebooks.
 
