@@ -7,6 +7,12 @@ draft = false
 +++
 
 #### Notebook
-[Regular Expressions](http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/python/regex.ipynb)
+[Regular Expressions](http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/python/RegEx.ipynb)
 
-This notebook has many examples of using regular expressions in Python.
+By far, the best course I have found on Regular Expressions is:
+<https://www.safaribooksonline.com/videos/understanding-regular-expressions/9781491996300>
+
+The best website I have found for learning and experimenting with Regular Expressions is:
+<https://regex101.com/>
+
+The above notebook has many examples of using regular expressions in Python.

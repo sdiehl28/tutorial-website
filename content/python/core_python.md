@@ -2,8 +2,9 @@
 title = "Core Python"
 date = 2019-01-11T21:49:18-08:00
 lastmod = 2019-01-14
-weight = 10
+weight = 20
 draft = false
+
 +++
 
 #### Notebooks
@@ -13,4 +14,3 @@ draft = false
 These notebooks do not teach Python per se, rather they present code examples to clarify some issues that are commonly misunderstood.
 
 Core Python 2 is more advanced than Core Python.
-
