@@ -13,4 +13,4 @@ draft = false
 
 These notebooks do not teach Python per se, rather they present code examples to clarify some issues that are commonly misunderstood.
 
-Core Python 2 is more advanced than Core Python.
+The Core Python 2 notebook is more advanced than Core Python.

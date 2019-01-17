@@ -20,7 +20,7 @@ One exception to this is if you want to install and run a Python based applicati
 
 An example of a Python package that is best installed in a Python virtual environment is pgadmin4.  This is a Python flask application that interfaces with PostgreSQL.  To run pgadmin4, you should activate the Python virtual environment for pgadmin4, and then kick of pgadmin4.
 
-#### When to use Pip
+#### When to use pip Instead of conda
 
 Pip, which provides access to [Pypi](https://pypi.org/) works well inside a conda virtual environment.  Be sure to active your conda virtual environment before using pip to install anything.  The primary downside of using pip is that conda's "solving environment" will not know if the pip installed package is consistent with the packages installed with conda.   For this reason, its best to use conda for all packages directly available from the default Anaconda channel.  A "channel" is a repository of Anaconda packages.
 
