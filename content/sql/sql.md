@@ -1,5 +1,5 @@
 ---
-title: SQL & RDBMS
+title: Working with Databases
 weight: 20
 lastmod: 2019-01-18
 
