@@ -1,7 +1,7 @@
 +++
 title = "Python"
 description = ""
-weight = 10
+weight = 20
 alwaysopen = false
 lastmod = 2019-01-11
 
