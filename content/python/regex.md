@@ -1,13 +1,15 @@
 +++
 title = "Regular Expressions"
 date = 2019-01-11T21:49:18-08:00
-lastmod = 2019-01-14
+lastmod = 2019-01-17
 weight = 30
 draft = false
 +++
 
 #### Notebook
 [Regular Expressions](http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/python/RegEx.ipynb)
+
+The above notebook has many examples of using regular expressions in Python.
 
 #### Resources
 
@@ -19,5 +21,3 @@ The best website I have found for learning and experimenting with Regular Expres
 
 A good cookbook of practical regular expressions is:  
 https://www.amazon.com/Regular-Expressions-Cookbook-Solutions-Programming/dp/1449319432/
-
-The above notebook has many examples of using regular expressions in Python.
