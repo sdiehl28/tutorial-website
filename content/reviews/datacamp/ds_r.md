@@ -21,7 +21,7 @@ I completed all 23 courses which includes topics such as:
 
 These courses were taught by several people.  Everyone who taught did a good job.  I felt the extra 3 courses, relative to the Python track, were helpful in more fully rounding out the topics of Data Science and Machine Learning.
 
-I believe the Data Science in R Track is the fastest way to get started with Data Science in R. Some of the core concepts were touched upon a little too lightly to full grasp, but all the core concepts are introduced. If you want to get started as quickly as possible, this track may be the best online course option. If you are the type who wants to fully understand each topic before moving on, you may need to supplement the teaching videos with additional resources such as:
+I believe the Data Science in R Track is the fastest way to get started with Data Science in R. Some of the core concepts were touched upon a little too lightly to fully grasp, but all the core concepts are introduced. If you want to get started as quickly as possible, this track may be the best online course option. If you are the type who wants to fully understand each topic before moving on, you may need to supplement the teaching videos with additional resources such as:
 
 * [R for Data Science](http://r4ds.had.co.nz/)
 * [Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/)

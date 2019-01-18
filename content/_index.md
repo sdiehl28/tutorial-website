@@ -3,7 +3,7 @@ title = "Home Page"
 description = "Home Page"
 creatordisplayname = "Stephen Diehl"
 lastmodifierdisplayname = " by Stephen Diehl"
-lastmod = 2019-01-11
+lastmod = 2019-01-16
 typora-root-url = "/home/agni/WebSites/published/tutorial-website/static"
 
 +++
@@ -25,7 +25,7 @@ This website has five sections:
 - Numpy
 - Pandas
 - Matplotlib/Seaborn
-- Scikiit Learn
+- Scikit Learn
 
 ### Target Audience
 
