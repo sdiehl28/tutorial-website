@@ -1,6 +1,6 @@
 +++
 title = "SQL"
-weight = 30
+weight = 5
 lastmod = 2019-01-18
 +++
 

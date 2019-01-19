@@ -1,34 +1,10 @@
 +++
 title = "Model Selection"
 description = ""
-weight = 10
-draft = true
-lastmod = 2018-05-14
-typora-root-url = "/home/agni/SoftwareProjects/Sites/tutorial/static/"
+weight = 20
+lastmod = 2018-05-07
 +++
-The following papers greatly influenced this post and I would recommend reading them.  This post attempts to present a simple summary of these ideas.
-
-* [On over-fitting in model selection and subsequent selection bias in performance evaluation](http://www.jmlr.org/papers/volume11/cawley10a/cawley10a.pdf)
-
-#### Terminology
-
-For this post, I use the following terms.
-
-"CV" means Cross Validation.  It is used to estimate the performance of the model on data it was not trained on.
-
-"Model" means a specific model built from a specific dataset.
-
-"Model Selection" means to choose the best model based on its score.  The score could be computed from any of the scorers in sklearn.metrics, or it could be a customer scorer.
-
-"Model Parameters" are the parameters of a model which are determined by fitting the model to the data. For example, the linear regression coefficients for each feature and the intercept.
-
-"Model Hyperparameters" are those parameters which are not determined by fitting the model to the data, but are part of the model definition. For example, the amount of regularization, alpha, for the Lasso is a hyperparameter.
-
-Scikit Learn offers some methods which determine both the parameters and the hyperparameters, such as sklearn.LinearModel.LassoCV.  This method is offered because there is an efficient way to find both alpha and the linear coefficients.  In other words, LassoCV is more efficient than using GridSearchCV with the Lasso.  Nevertheless, the CV at the end of the estimator name is a give-away that internally it is performing cross validation and the reason that it is performing cross validation is to find the best hyperparameter.
-
-Minimize a loss function is maximize an objective function.
-
-
+We make a change to a model and we would like to know if it is "better" according to some measure.
 
 #### Statistical Approach
 
