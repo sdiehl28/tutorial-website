@@ -41,7 +41,7 @@ Tidy data terms:
 
 1. Variable: A quantity, quality, or property that you can measure.
 2. Observation: A set of values that display the relationship between variables.  To be an observation, values need to be measured under similar conditions, usually at the same time.
-3. Value: The state of the variable that you observe when you measure it.
+3. Value: The state of the variable you observe when you measure it.
 
 Tidy data definition:
 

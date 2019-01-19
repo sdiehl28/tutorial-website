@@ -1,21 +1,28 @@
-+++
-title = "Python"
-description = ""
-weight = 20
-alwaysopen = false
-lastmod = 2019-01-11
+---
+title: Python
+weight: 20
+lastmod: 2019-01-19
 
-+++
-
+# typora requires yaml, not toml
+typora-root-url: /home/agni/WebSites/published/tutorial-website/static/
+---
 ### Python Popularity
 
-As of January 2019, and likely throughout all of 2019, Python is the fastest growing programming language.
+As of January 2019, and likely to remain so for quite some time, Python is the fastest growing programming language.
 
-Modern Data Science is likely the main reason for Python's recent rise in popularity.  Packages such as Pandas (data science) and Scikit Learn (machine learning) have become very popular.  Python is also a great general purpose language for web development, scripting and more.
+[Tiobe](https://www.tiobe.com/tiobe-index/) programming language popularity, January 2019:
+
+![tiobe-index](/images/tiobe-2019-01-19.png)
+
+A few notes about the above chart.  C is mostly used for embedded and systems programming. Visual Basic .NET is mostly used for interacting with Windows applications.  Java is more popular than Python, but Python is the language rising fastest in popularity.  Interestingly, the use of R has decreased over the last year suggesting that Python has won the Python vs R battle for use in business.
+
+The rise in popularity of Python is no doubt driven by the rise in popularity of Data Science and Machine Learning.  Python offers excellent support for Data Science with Pandas, Matplotlib/Seaborn and more.  Python offers excellent support for Machine Learning with Scikit Learn, Keras, and more.
+
+A development team that is using Python for Data Science and Machine Learning will likely be inclined to use it for other tasks as well, thereby further increasing its usage.  Python is also a great general purpose language much used for web development, scripting and more.
 
 Python was designed to be easy to read and understand.  As code is more often read than written, this reduces development time.  Reduced development time translates into reduced costs for businesses that create software products or perform data analysis.
 
-Python, combined with its standard library, is a very powerful tool.  A few lines of code can do a lot.  Python is much more concise than languages such as Java and C++.
+Python, combined with its standard library, is a very powerful tool.  A few lines of code can do a lot.  Python is much more concise than languages like Java and C++.
 
 ### Python
 

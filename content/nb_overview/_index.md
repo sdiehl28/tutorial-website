@@ -4,19 +4,19 @@ description = ""
 weight = 10
 alwaysopen = false
 head = "<label>Jupyter Notebooks</label>"
-lastmod = 2019-01-12
+lastmod = 2019-01-19
 
 +++
 
 ### Jupyter Notebooks and IDEs
 
-The easiest way to learn and experiment with code, is to use a Jupyter Notebook.
-
-The best way to be efficient in a professional programming environment, is to use an IDE. The best IDE in my opinion is [PyCharm](https://www.jetbrains.com/pycharm/download/#section=linux_).  Other popular IDEs include [Atom](https://atom.io/) and [Sublime](https://www.sublimetext.com/) with their appropriate plug-ins.  
+The easiest way to learn and experiment with code is to use a Jupyter Notebook.
 
 With a Jupyter Notebook, you can enter your own notes about your own experiments.  You can execute each block of code and get immediate text or graphical feedback.  This note taking and immediate visual feedback reinforces the concepts to your mind, making them easier to remember and use in practice.  Furthermore, you can revisit your notebook at any time for a quick reminder.
 
-In my opinion, most people will learn faster and better remember what they learn using Jupyter Notebooks, and most people will be more productive at work using an IDE.
+The best way to be efficient in a professional programming environment, is to use an IDE. The best IDE in my opinion is [PyCharm](https://www.jetbrains.com/pycharm/download/).  Other popular IDEs include [Atom](https://atom.io/) and [Sublime](https://www.sublimetext.com/) with their appropriate plug-ins.  
+
+Reiterating, I believe most people will learn faster and better remember what they learn using Jupyter Notebooks, and most people will be more productive at work using an IDE.
 
 A free service which makes it easy to share Jupyter notebooks with others is [nbviewer](https://nbviewer.jupyter.org/).  Nbviewer also offers the option to download the Jupyter Notebook it is displaying or execute it on Binder.
 
