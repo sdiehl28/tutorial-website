@@ -17,7 +17,7 @@ This website has five sections:
 * **Jupyter Notebooks** with code with explanations
 * **Recommendations** for learning resources
 * **Course Reviews** of courses I have taken
-* **Posts** about Data Science, Machine Learning and Python
+* **Topics** information about Data Science, Machine Learning and Python
 * **About** this website and myself
 
 ### Primary Libraries Discussed 
