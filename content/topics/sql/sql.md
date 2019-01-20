@@ -47,4 +47,4 @@ Per [DB Engines](https://db-engines.com/en/ranking_trend) in January 2019, the t
 
 ![DB Rankings Image](/images/DB-Rankings-2019-01-18.png)
 
-PostgreSQL is rapidly increasing in use while the top three are gradually declining in use.  This is in part because the top three have very high licensing fees and PostgreSQL is free, open-source, and with over 30 years of development, reliable and full featured.
+PostgreSQL is rapidly increasing in use while the top three are gradually declining in use.  This is in part because the top three have very high licensing fees and PostgreSQL is free, open-source, and with over 20 years of development, reliable and full featured.
