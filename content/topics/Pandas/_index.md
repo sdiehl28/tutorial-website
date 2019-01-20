@@ -5,5 +5,4 @@ weight = 310
 lastmod = 2019-01-18
 
 +++
-TODO: provide introduction to Pandas section.
-
+Pandas is the primary way data scientists interact with data in Python.
