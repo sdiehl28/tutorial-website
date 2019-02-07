@@ -4,9 +4,15 @@ description = ""
 weight = 10
 alwaysopen = false
 head = "<label>Jupyter Notebooks</label>"
-lastmod = 2019-01-19
+lastmod = 2019-02-06
 
 +++
+
+Except for reviews of online courses, and an occasional post such as how to install the latest version of PostgreSQL, this website's primary content of value to developers, are it's links to the Jupyter Notebooks.
+
+### Operating System
+
+Most of the Jupyter Notebooks on this site will run identically under Linux or MacOS or Windows.  All notebooks were tested on Ubuntu 18.04 LTS running Anaconda Distribution 2018.12 or later.
 
 ### Jupyter Notebooks and IDEs
 
@@ -23,6 +29,11 @@ A free service which makes it easy to share Jupyter notebooks with others is [nb
 All the links on this website use nbviewer to display my Jupyter Notebooks.  Simply click on the link.  For example: [Show Versions](https://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/snippets/ShowVersions.ipynb)
 
 To use Binder from the nbviewer page, simply click on the 3 ring icon in the top right of the nbviewer page.  This will take you to the binder site where you will be allowed to execute the Jupyter Notebook and make temporary changes to it.  For details about how Binder works see: [MyBinder How It Works](https://mybinder.org/#how-it-works)
+
+### Using Jupyter Lab for Jupyter Notebooks
+
+Complex notebooks are easier to maintain using Jupyter Lab which provides tabs for each notebook, and cut and paste between notebooks.  It also has add-ons such as [Table of Contents](https://github.com/jupyterlab/jupyterlab-toc
+) which is automatically derived from header levels in the notebook.  The notebooks here are designed to be easier to follow by using the derived Table of Contents.  Note that add-ons for Jupyter Lab are different than add-ons for Jupyter Notebook.
 
 ### Python Package Versions
 

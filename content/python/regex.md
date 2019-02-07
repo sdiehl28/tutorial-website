@@ -1,15 +1,15 @@
 +++
 title = "Regular Expressions"
 date = 2019-01-11T21:49:18-08:00
-lastmod = 2019-01-17
+lastmod = 2019-01-21
 weight = 30
 draft = false
+
 +++
 
-#### Notebook
-[Regular Expressions](http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/python/RegEx.ipynb)
-
-The above notebook has many examples of using regular expressions in Python.
+#### Notebooks
+1. [Regular Expressions](http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/python/RegEx.ipynb)
+2. [Parse Jupyter Notebook using RegEx](http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/python/RegExParseNB.ipynb)
 
 #### Resources
 
