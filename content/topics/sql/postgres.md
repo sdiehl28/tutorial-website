@@ -28,7 +28,7 @@ The following instructions will:
 
 ### Postgres Installation for Ubuntu
 
-#### Chose Version
+#### Choose Version
 
 You can install Postgres using apt.  To see what version apt will provide, enter the following at the terminal: 
 ```bash
