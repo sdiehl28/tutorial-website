@@ -1,6 +1,6 @@
 +++
 title = "Working with Data"
-weight = 5
+weight = 30
 lastmod = 2019-01-19
 
 +++

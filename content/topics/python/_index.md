@@ -1,6 +1,6 @@
 ---
 title: Python
-weight: 410
+weight: 20
 lastmod: 2019-01-19
 
 # typora requires yaml, not toml
