@@ -1,5 +1,5 @@
 ---
-title: Data Terms
+title: Terminology
 weight: 10
 lastmod: 2019-01-18
 
@@ -31,13 +31,13 @@ A proper introduction would require many pages.  A data scientist may only need 
 
 #### Tidy Data
 
-A definition created by Hadley Wickham.  Loosely speaking, Tidy Data refers to the subset of the relational model that is needed by data scientists.  In relational terminology, Tidy Data is very similar to a table in third normal form.
+A definition created by Hadley Wickham.  Tidy Data refers to the subset of the relational model that is needed by data scientists.  In relational terminology, Tidy Data is similar to a table in third normal form.
 
 "Tidy Data" refers to the structure of the data.  Tidy data can be used equally well in both R and Python.  
 
 In R, data (optionally structured as tidy data), is handled with the set of packages called the [Tidyverse](https://www.tidyverse.org/packages/).  In Python, data (optionally structured as tidy data), is handled primarily with [Pandas](https://pandas.pydata.org/).
 
-In the following, I am using a some of Hadley's words from his [tidy data paper](https://vita.had.co.nz/papers/tidy-data.pdf) and some of my own words to make it clearer.
+In the following, I am using a some of Hadley's words from his [tidy data paper](https://vita.had.co.nz/papers/tidy-data.pdf) with a few of my own words.
 
 Tidy data terms:
 

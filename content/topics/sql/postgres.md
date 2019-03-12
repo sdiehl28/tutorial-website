@@ -1,5 +1,5 @@
 ---
-title: PostgreSQL
+title: PostgreSQL Installation
 weight: 30
 lastmod: 2019-01-19
 
@@ -12,6 +12,10 @@ PostgreSQL is also called Postgres.
 An excellent book is: [PostgreSQL Up & Running 3rd Edition](https://www.amazon.com/PostgreSQL-Running-Practical-Advanced-Database/dp/1491963417/)
 
 An excellent book on SQL, specifically Postgres SQL is: [Practical SQL](https://www.amazon.com/Practical-SQL-Beginners-Guide-Storytelling-ebook/dp/B07197G78H/) 
+
+A database server needs client tools to make working with the server easier.  An often used client tool for Postgres is pgAdmin4.
+
+### Overview
 
 The following instructions are for beginners.  They are verbose.  If you are an expert, you may chose to do something different.
 
@@ -72,7 +76,7 @@ apt install postgresql-11
 The install should setup the postgres service so that is starts automatically on reboot and start it (so you don't have to reboot).
 
 ```bash
-# helpful command for working with the postgres server
+# helpful commands for working with the postgres server
 # enable the service to start at boot
 sudo systemctl enable postgresql.service
 
@@ -107,7 +111,7 @@ postgres=# \password
 # enter your password
 ```
 
-### Install pgadmin4
+### Install pgAdmin4
 
 Download the wheel from: [pgAdmin4 Python Wheel](https://www.pgadmin.org/download/pgadmin-4-python-wheel/)
 
@@ -126,7 +130,7 @@ source pgadmin4/bin/activate
 
 # install the pgAdmin4 wheel
 # for example
-pip install ~/Downloads/pgadmin4-4.1-py2.py3-none-any.whl
+pip install ~/Downloads/pgadmin4-4.3-py2.py3-none-any.whl
 ```
 
 The default Postgres authentication is peer.  This means the Linux user must match the Postgres user.  I find this inconvenient, especially as I just created a venv under my usual Linux login user.

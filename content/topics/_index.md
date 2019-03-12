@@ -1,10 +1,10 @@
 +++
-title = "Topics"
+title = "Posts"
 description = ""
 weight = 310
-head = "<label>Topics</label>"
-lastmod = 2019-01-18
+head = "<label>Posts</label>"
+lastmod = 2019-03-12
 
 +++
-TODO: provide introduction to Topics section.
+Posts on various topics.
 

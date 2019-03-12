@@ -5,6 +5,17 @@ lastmod = 2019-01-19
 
 +++
 
-Data scientists need to interact with data.  Data in Python is stored in the form of a Pandas DataFrame.  Data in R is stored in the form of a R DataFrame.  Data in a relational database is stored in the form of tables.
+Some common ways to represent and work with data:
 
-Pandas, dplyr and SQL are all similar to each other in that each implements similar data operations.  For example: filter (rows and/or columns), join, group, aggregate, etc.
+**Python**: DataFrame and Pandas
+
+**R**: data.frame and dplyr
+
+**DBMS**: table and SQL
+
+Each of the above has the ability to:
+
+* filter data by rows and columns
+* join dataframes/tables
+* group by and aggregate
+* and more
