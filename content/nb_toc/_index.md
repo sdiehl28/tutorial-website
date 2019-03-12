@@ -1,5 +1,5 @@
 +++
-title = "Jupyter Notebook TOC"
+title = "Table of Contents"
 description = ""
 weight = 10
 alwaysopen = false

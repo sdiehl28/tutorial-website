@@ -36,8 +36,6 @@ The base model had an mean cross validated accuracy of 68.7%.  The null model ha
 
 The base model is significantly better than the null model.
 
-For a discussion on how to compare models based on cross validated scores, see my post: [Model Selection](/posts/model_comparison/)
-
 #### Next
 
 Improve the model by replacing missing Age values with the mean Age value and use the Age variable in the model.

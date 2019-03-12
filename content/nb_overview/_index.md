@@ -1,5 +1,5 @@
 +++
-title = "Jupyter NB Overview"
+title = "Jupyter Notebooks"
 description = ""
 weight = 30
 alwaysopen = false
