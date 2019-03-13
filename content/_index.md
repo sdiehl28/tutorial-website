@@ -16,7 +16,7 @@ This website has five sections:
 
 * **Jupyter Notebooks** with code and detailed explanations.
 * **Recommendations** for learning resources.
-* **Course Reviews** of courses I have taken.
+* **Course Reviews** of dozens of online courses I have completed.
 * **Posts** about Data Science, Machine Learning and Python.
 * **About** this website and myself.
 

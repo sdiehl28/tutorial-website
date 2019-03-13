@@ -4,12 +4,17 @@ description = ""
 weight = 10
 alwaysopen = false
 head = "<label>Jupyter Notebooks</label>"
-lastmod = 2019-03-12
+lastmod = 2019-03-13
 
 +++
 
+A list of Jupyter Notebooks I have created on github, organized by topic.
+
+These notebooks are designed for use with Jupyter Lab and the Table of Contents extension: [JupyterLab TOC Extension](https://github.com/jupyterlab/jupyterlab-toc).
+
 ### Python Programming
-A basic understanding of Python and programming is assumed.  These notebooks illustrate some commonly misunderstood topics.
+
+A basic understanding of Python and programming is assumed.  Some commonly misunderstood examples are presented.
 
 * [Core Python 1](
   http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/python/CorePython.ipynb)
@@ -88,30 +93,24 @@ A basic understanding of numpy is assumed.
 
 ### Open Source Baseball Project
 
-The most detailed open source baseball data available will be downloaded, unzipped, parsed, wrangled and persisted as both CSV files and Postgres tables.  For a full description of the project, see: TODO
+Analyze open source baseball data from Lahman and Retrosheet.
 
-* [Baseball 01]( http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/python/BB01-Intro.ipynb)
-  * Download and unzip Lahman and Retrosheet baseball data.
-* [Baseball 02]( http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/python/BB02-HelperFunctions.ipynb)
-  * Define 10 functions used throughout the Baseball notebooks.
-  * The most important being the ability to read/write to csv files while retaining DataFrame column types.
-* [Baseball 03]( http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/python/BB03-DataOrganization.ipynb)
-  * Overview of data organization and data dictionaries.  Hundreds of fields in total.
-  * Data will be organized as multiple "tidy data" csv files and Postgres tables
-* [Baseball 04]( http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/python/BB04-LahmanWranglePersist.ipynb)
-  * Lahman: Wrangle and Persist to CSV and Postgres
-* [Baseball 05]( http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/python/BB05-RetroParse.ipynb)
-  * Retrosheet: parse play-by-play data to stats per player per game
-  * Retrosheet: parse play-by-play data to stats per team per game
-* [Baseball 06]( http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/python/BB06-RetroWranglePersistCSV.ipynb)
-  * Retrosheet: wrangle data and persist to csv files
-* [Baseball 07]( http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/python/BB07-RetroPersistPostgres.ipynb)
-  * use df.to_sql() to create Postgres tables
-  * bulk load large csv files into Postgres
-* [Baseball 08]( http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/python/BB08-CompareRetroLahman.ipynb)
-  * Compute several aggregates of the Retrosheet data and compare with Lahman data.
+For detail see: [Baseball Data Analysis](/projects/baseball/)
 
-### Iterative ML Model Development -- Titantic DataSet
+* [Get Lahman & Retrosheet Data]( http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/python/BB01-Intro.ipynb)
+* [Helper Functions]( http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/python/BB02-HelperFunctions.ipynb)
+* [Data Organization & Data Dictionary]( http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/python/BB03-DataOrganization.ipynb)
+* [Lahman: Wrangle and Persist]( http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/python/BB04-LahmanWranglePersist.ipynb)
+* [Retrosheet: Parse Data]( http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/python/BB05-RetroParse.ipynb)
+* [Retrosheet: Wrangle and Persist to csv]( http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/python/BB06-RetroWranglePersistCSV.ipynb)
+* [Retrosheet: Persit to Postgres]( http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/python/BB07-RetroPersistPostgres.ipynb)
+* [Lahman & Retrosheet: Aggregate and Compare]( http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/python/BB08-CompareRetroLahman.ipynb)
+
+### Iterative ML Model Development
+
+Iterative Model development is discussed using the Titantic data set from Kaggle for context.  
+
+For detail, see: [Iterative Model Development](/projects/iterative_model_dev/)
 
 * [Create Baseline Model](http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/projects/titanic/Titanic01.ipynb)
 * [Cross Validation](http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/projects/titanic/Titanic02.ipynb)

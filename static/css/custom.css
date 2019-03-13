@@ -1,6 +1,6 @@
 article section.page h1:first-of-type {
   text-transform: none;
-  font-family: 'Segoe UI', sans-serif;    
+  font-family: 'Segoe UI', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -40,6 +40,11 @@ header nav.shortcuts li a:active, header nav.shortcuts li a:focus, header nav.sh
  font-weight: bold;
 }
 
-/* p {
-  margin-top: -0.5em;
-} */
+p + ul {
+  margin-top: -0.3em;
+}
+
+p {
+  margin-top: 0.7em;
+  margin-bottom: 1.2em;
+}
