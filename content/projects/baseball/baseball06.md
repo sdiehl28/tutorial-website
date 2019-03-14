@@ -3,7 +3,7 @@ title = "Wrangle & Persist to CSV"
 description = ""
 weight = 80
 alwaysopen = false
-lastmod = 2019-03-13
+lastmod = 2019-03-14
 typora-root-url = "/home/agni/SoftwareProjects/Sites/tutorial/static/"
 
 +++
@@ -11,16 +11,11 @@ typora-root-url = "/home/agni/SoftwareProjects/Sites/tutorial/static/"
 #### Notebook: [Wrangle & Persist to CSV](http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/python/BB06-RetroWranglePersistCSV.ipynb)
 
 #### Goals
-* Lahman: Download and unzip data from Jupyter Notebook
-* Retrosheet: Download and unzip data from Jupyter Notebook
-
-<div class="alert alert-success">
-<strong>Tip:</strong> The Jupyter Notebook link above provides the discussion and code.  This web page is just a minimal summary.
-</div>
-
-#### Results
-Repeatable Research means that all steps in data analysis, including downloading the raw data from its original source, are documented.  Performing these steps in a Jupyter Notebook is one way to document this.
+* The cwgame parser created data that is not in "tidy format".
+  * Put game information (e.g. attendance) in one DataFrame
+  * Put team-game information (e.g. Home Team scored 10 runs, Visiting Team scored 5 runs) in another DataFrame
+* Persist the wrangled data to CSV files.
 
 #### Next
 
-Describe key functions used in all the Baseball notebooks.
+Persist data to Postgres using bulk load.

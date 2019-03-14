@@ -3,7 +3,7 @@ title = "Bulk Load CSV to Postgres"
 description = ""
 weight = 90
 alwaysopen = false
-lastmod = 2019-03-12
+lastmod = 2019-03-14
 typora-root-url = "/home/agni/SoftwareProjects/Sites/tutorial/static/"
 
 +++
@@ -11,16 +11,7 @@ typora-root-url = "/home/agni/SoftwareProjects/Sites/tutorial/static/"
 #### Notebook: [Bulk Load CSV to Postgres](http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/python/BB07-RetroPersistPostgres.ipynb)
 
 #### Goals
-* Lahman: Download and unzip data from Jupyter Notebook
-* Retrosheet: Download and unzip data from Jupyter Notebook
-
-<div class="alert alert-success">
-<strong>Tip:</strong> The Jupyter Notebook link above provides the discussion and code.  This web page is just a minimal summary.
-</div>
-
-#### Results
-Repeatable Research means that all steps in data analysis, including downloading the raw data from its original source, are documented.  Performing these steps in a Jupyter Notebook is one way to document this.
+* Efficiently load large CSV files into Postgres using bulk load
 
 #### Next
-
-Describe key functions used in all the Baseball notebooks.
+Aggregate both the Lahman and Retrosheet data, and compare the aggregates.

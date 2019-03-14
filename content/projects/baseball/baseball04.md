@@ -3,7 +3,7 @@ title = "Lahman: Wrangle and Persist"
 description = ""
 weight = 60
 alwaysopen = false
-lastmod = 2019-03-13
+lastmod = 2019-03-14
 typora-root-url = "/home/agni/SoftwareProjects/Sites/tutorial/static/"
 
 +++
