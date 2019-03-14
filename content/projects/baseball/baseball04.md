@@ -8,7 +8,7 @@ typora-root-url = "/home/agni/SoftwareProjects/Sites/tutorial/static/"
 
 +++
 
-#### Notebook: [Lahman: Wrangle and Persist](http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/python/BB04-Intro.ipynb)
+#### Notebook: [Lahman: Wrangle and Persist](http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/python/BB04-LahmanWranglePersist.ipynb)
 
 #### Goals
 * Wrangle and Persist the Lahman Baseball data

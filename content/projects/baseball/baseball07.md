@@ -8,7 +8,7 @@ typora-root-url = "/home/agni/SoftwareProjects/Sites/tutorial/static/"
 
 +++
 
-#### Notebook: [Bulk Load CSV to Postgres](http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/python/BB07-Intro.ipynb)
+#### Notebook: [Bulk Load CSV to Postgres](http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/python/BB07-RetroPersistPostgres.ipynb)
 
 #### Goals
 * Lahman: Download and unzip data from Jupyter Notebook

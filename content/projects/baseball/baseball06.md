@@ -8,7 +8,7 @@ typora-root-url = "/home/agni/SoftwareProjects/Sites/tutorial/static/"
 
 +++
 
-#### Notebook: [Wrangle & Persist to CSV](http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/python/BB06-Intro.ipynb)
+#### Notebook: [Wrangle & Persist to CSV](http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/python/BB06-RetroWranglePersistCSV.ipynb)
 
 #### Goals
 * Lahman: Download and unzip data from Jupyter Notebook

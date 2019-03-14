@@ -8,7 +8,7 @@ typora-root-url = "/home/agni/SoftwareProjects/Sites/tutorial/static/"
 
 +++
 
-#### Notebook: [Aggregate & Compare](http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/python/BB08-Intro.ipynb)
+#### Notebook: [Aggregate & Compare](http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/python/BB08-CompareRetroLahman.ipynb)
 
 #### Goals
 * Lahman: Download and unzip data from Jupyter Notebook

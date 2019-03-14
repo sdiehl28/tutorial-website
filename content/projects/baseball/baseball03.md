@@ -8,7 +8,7 @@ typora-root-url = "/home/agni/SoftwareProjects/Sites/tutorial/static/"
 
 +++
 
-#### Notebook: [Data Organization & Data Dictionary](http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/python/BB03-Intro.ipynb)
+#### Notebook: [Data Organization & Data Dictionary](http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/python/BB03-DataOrganization.ipynb)
 
 #### Goals
 * Describe data organization and data dictionaries.  Hundreds of fields in total.

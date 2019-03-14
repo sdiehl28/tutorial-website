@@ -8,7 +8,7 @@ typora-root-url = "/home/agni/SoftwareProjects/Sites/tutorial/static/"
 
 +++
 
-#### Notebook: [Parse Retrosheet Data](http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/python/BB05-Intro.ipynb)
+#### Notebook: [Parse Retrosheet Data](http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/python/BB05-RetroParse.ipynb)
 
 #### Goals
 * Download Source Code for Open Source Parsers, build and install them OR using prebuilt Windows Binaries

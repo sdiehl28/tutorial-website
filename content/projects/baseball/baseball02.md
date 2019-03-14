@@ -8,7 +8,7 @@ typora-root-url = "/home/agni/SoftwareProjects/Sites/tutorial/static/"
 
 +++
 
-#### Notebook: [Helper Functions](http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/python/BB02-Intro.ipynb)
+#### Notebook: [Helper Functions](https://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/python/BB02-HelperFunctions.ipynb)
 
 #### Goals
 * Provide a set of helpful functions used by all Baseball Notebooks
