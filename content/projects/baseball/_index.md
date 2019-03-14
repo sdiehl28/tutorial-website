@@ -24,3 +24,4 @@ Sabermetrics are the "extracted features" from baseball data.  Usually they have
 
 Sabermetrics, being a particular type of derived feature, will only be discussed briefly in what follows.  This is website is primarily about Data Science and Machine Learning.
 
+If you are interested in Sabermetrics or Baseball in particular, you may enjoy the following: [Sabermetrics: How to Find Data](https://sabr.org/sabermetrics/data)

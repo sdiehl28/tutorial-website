@@ -13,4 +13,4 @@ Some people may find it helpful to read two excellent books on the same subject 
 
 For many people,  [online courses](/reviews) are better than books, or are better to start with than books.
 
-The following sections present my short list of the best books for the key subject areas.
+The following sections present my short list of the best books for key subject areas.
