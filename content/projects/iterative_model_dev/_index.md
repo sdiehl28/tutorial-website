@@ -1,38 +1,23 @@
-+++
-title = "Iterative ML Model Development"
-description = ""
-weight = 40
-alwaysopen = false
-lastmod = 2018-04-27
-+++
-Building a predictive model is an iterative process.  The goal is to quickly get something working and then evolve the model as seems best after analysis of the previous model.
+---
+title: ML Modeling with Scikit Learn
+weight: 40
+alwaysopen: false
+lastmod: 2019-06-14
+typora-root-url: ../../../static
+---
+It is useful to consider model building as part of an iterative software development process.
 
-At the highest level, the Model Development Process is:
+A simple model, informed by Exploratory Data Analysis, can be created.  Once a model is up and running, it can be refined through subsequent software iterations.
 
-- create a baseline model
-- iteratively improve upon that model
+#### Technical Prerequisites
 
-*The model building process will be demonstrated using a series of Jupyter Notebooks with each notebook representing the next evolution of the model.*
+This series of 10 notebooks is most helpful if you understand:
 
-Each web page will describe an overview of the topic and will link to a Jupyter Notebook representing one iteration of the model.
-
-The iterative model development cycle consists of:
-
-* setup (data wrangling)
-* execution and results (measuring model performance)
-* analysis (what worked, what didn't and what to try next)
-
-For each iteration, the goal is to improve the model.  Improvement means:
-
-- improve accuracy or interpretability
-- improve software workflow
-
-The benefits of improved software workflow include:
-
-- reproducibility
-- experimental flexibility
-- reduced software and model evaluation bugs
+- [Python Objects](<https://www.youtube.com/playlist?list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc>) - first 4 videos or similar
+- [Pandas Groupby](<https://www.tutorialspoint.com/python_pandas/python_pandas_groupby.htm>) or [My Pandas Groupby](<https://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/python/Pandas03.ipynb>) or similar
+- [Seaborn v0.9.0 or higher](<https://seaborn.pydata.org/>) and in particular [relplot](<https://seaborn.pydata.org/tutorial/relational.html#relational-tutorial>) and [catplot](<https://seaborn.pydata.org/tutorial/categorical.html#categorical-tutorial>) which simplify the creation of facetgrid plots.
 
 #### Next
 
-For the first iteration, we will create a simple model and measure its accuracy with cross validation.
+Describe the Model Building Process and how to Rank Models by Score.
+

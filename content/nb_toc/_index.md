@@ -4,7 +4,7 @@ description = ""
 weight = 10
 alwaysopen = false
 head = "<label>Jupyter Notebooks</label>"
-lastmod = 2019-03-13
+lastmod = 2019-06-12
 
 +++
 
@@ -106,14 +106,49 @@ For detail see: [Baseball Data Analysis](/projects/baseball/)
 * [Retrosheet: Persit to Postgres]( http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/python/BB07-RetroPersistPostgres.ipynb)
 * [Lahman & Retrosheet: Aggregate and Compare]( http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/python/BB08-CompareRetroLahman.ipynb)
 
-### Iterative ML Model Development
+### Iterative Model Development with Scikit Learn
 
-Iterative Model development is discussed using the Titantic data set from Kaggle for context.  
+Iterative Model development is presented as a series of 10 notebooks.  Some of the latest features from Scikit Learn v0.21 are demonstrated.
 
 For detail, see: [Iterative Model Development](/projects/iterative_model_dev/)
 
-* [Create Baseline Model](http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/projects/titanic/Titanic01.ipynb)
-* [Cross Validation](http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/projects/titanic/Titanic02.ipynb)
-* [Custom Transformers](http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/projects/titanic/Titanic03.ipynb)
-* [Categorical Encoding](http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/projects/titanic/Titanic04.ipynb)
-* [Feature Extraction](http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/projects/titanic/Titanic05.ipynb)
+* [Model Development](https://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/projects/titanic/TitanicN01.ipynb)
+  * Definition of Scikit Learn Model
+  * The Model Building Process
+  * Ranking Models vs Evaluating Models
+* [Visual Exploratory Data Analysis (EDA)](http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/projects/titanic/TitanicN02.ipynb)
+  * Understand Data Domain
+  * Visually analyze *subset* of data to avoid Overfitting
+* [Create First Model](http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/projects/titanic/TitanicN03.ipynb)
+  * Begin with most promising features found during EDA
+  * Begin with simple or no preprocessing
+  * Compare Model with Null Model
+* [Cross Validation and Avoiding Data Leakage](http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/projects/titanic/TitanicN04.ipynb)
+  * What is Data Leakage
+  * Feature Transformation with and without Data Leakage
+* [Encapsulating Data Processing with Pipes](http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/projects/titanic/TitanicN05.ipynb)
+  * Use Numeric Features
+  * Standardize and Impute missing values
+  * Use v0.21 IterativeImputer
+* [Encapsulating Data Processing with ColumnTransformer](http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/projects/titanic/TitanicN06.ipynb)
+  * Use v0.20 ColumnTransformer for Pipes per Feature
+  * Use Extracted Numeric Features suggested by EDA
+  * Encapsulate Feature Encoding and Feature Transformation in Functions
+  * More on Data Leakage
+* [Categorical Encoding](http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/projects/titanic/TitanicN07.ipynb)
+  * Use Extracted Categorical Features suggested by EDA
+  * Encode Categorical Features
+  * Refine Feature Encoding and Feature Transformation Functions
+  * Simplify Model
+* [Hyperparameter Optimization](http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/projects/titanic/TitanicN08.ipynb)
+  * One Standard Error Rule
+  * Specialized Learning Curve for Best K for Model Ranking
+  * Nested Cross Validation
+* [Ensembles](http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/projects/titanic/TitanicN09.ipynb)
+  * Custom Code a Stacking Estimator
+  * Tune Base Learners and Meta Learner
+  * Use VotingClassifier
+  * Custom Code a Forest of Decision Trees
+* [Building an Interpretable Model](http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/projects/titanic/TitanicN10.ipynb)
+  * Build two small, simple, yet accurate Decision Trees
+  * Use Decision Trees to explain the domain data

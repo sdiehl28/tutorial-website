@@ -3,22 +3,27 @@ title = "Home Page"
 description = "Home Page"
 creatordisplayname = "Stephen Diehl"
 lastmodifierdisplayname = " by Stephen Diehl"
-lastmod = 2019-03-12
+lastmod = 2019-06-14
 typora-root-url = "/home/agni/WebSites/published/tutorial-website/static"
 
 +++
 
 # Data Science<br/> Machine Learning<br/> and Python
 
+### <span style="color:#3333FF">New: June 2019</span>
+In depth, [10 Jupyter notebook series](/projects/iterative_model_dev/) on building Machine Learning Models using the latest features from Scikit Learn 0v.21 (released in May 2019).
+
 ### Overview
 
 This website has five sections:
 
-* **Jupyter Notebooks** with code and detailed explanations.
+* **Jupyter Notebooks** learning by example with code and detailed explanations.
 * **Recommendations** for learning resources.
 * **Course Reviews** of dozens of online courses I have completed.
 * **Posts** about Data Science, Machine Learning and Python.
 * **About** this website and myself.
+
+The main body of work is the Jupyter Notebooks.
 
 ### Primary Libraries Discussed 
 - Python Standard Library
@@ -30,5 +35,3 @@ This website has five sections:
 ### Target Audience
 
 This website is for people who have been introduced to Python, Data Science and Machine Learning, but who are not yet experts.
-
-This website focuses on Learning by Example through Jupyter Noteboooks.
