@@ -53,6 +53,6 @@ The top three relational open source systems are MySQL, PostgreSQL, and SQLite. 
 
 Since 2014, PostgreSQL has doubled in popularity, whereas the top three RDBMS products have all declined slightly.
 
-For learning SQL (and the basics of RDMBS administration), I would recommend PostgreSQL.  It has many features that are missing from SQLite and MySQL.  
+For learning SQL (and the basics of RDMBS administration), I would recommend PostgreSQL.  It has many features that are missing from SQLite and MySQL.  An excellent book on learning SQl with PostgreSQL is: [Practical SQL by Anthony DeBarros](<https://www.amazon.com/Practical-SQL-Beginners-Guide-Storytelling-ebook/dp/B07197G78H/>).
 
 For deploying an application, the best open source RDMBS depends on your application needs.  See the above link comparing SQLite, MySQL and PostgreSQL.
