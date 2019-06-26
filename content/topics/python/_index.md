@@ -1,20 +1,23 @@
 ---
 title: Python
 weight: 20
-lastmod: 2019-01-19
+lastmod: 2019-06-26
 
-# typora requires yaml, not toml
-typora-root-url: /home/agni/WebSites/published/tutorial-website/static/
+typora-root-url: ../../../static
 ---
 ### Python Popularity
 
-As of January 2019, and likely to remain so for quite some time, Python is the fastest growing programming language.
+As of June 2019, and likely to remain so for quite some time, Python is the fastest growing programming language.
 
-[Tiobe](https://www.tiobe.com/tiobe-index/) programming language popularity, January 2019:
+To quote from [Tiobe](https://www.tiobe.com/tiobe-index/) in June 2019:
 
-![tiobe-index](/images/tiobe-2019-01-19.png)
+> ### June Headline: Python continues to soar in the TIOBE index
+>
+> This month Python has reached again an all time high in TIOBE index of 8.5%. If Python can keep this pace, it will probably replace C and Java in 3 to 4 years time, thus becoming the most popular programming language of the world. 
 
-A few notes about the above chart.  C is mostly used for embedded and systems programming. Visual Basic .NET is mostly used for interacting with Windows applications.  Java is more popular than Python, but Python is the language rising fastest in popularity.  Interestingly, the use of R has decreased over the last year suggesting that Python has won the Python vs R battle for use in business.
+![tiobe-index](/images/tiobe-2019-06.png)
+
+A few notes about the above chart.  C is mostly used for embedded and systems programming. Visual Basic .NET is mostly used for interacting with Windows applications.  Java is more popular than Python, but Python is the language rising fastest in popularity.  Interestingly, the use of R has decreased over the last year, dropping to 22nd place.  It appears Python has won the Python vs R battle for use in business.
 
 The rise in popularity of Python is no doubt driven by the rise in popularity of Data Science and Machine Learning.  Python offers excellent support for Data Science with Pandas, Matplotlib/Seaborn and more.  Python offers excellent support for Machine Learning with Scikit Learn, Keras, and more.
 

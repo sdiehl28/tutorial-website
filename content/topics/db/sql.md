@@ -1,10 +1,10 @@
 ---
 title: Working with Databases
 weight: 20
-lastmod: 2019-01-18
+lastmod: 2019-06-26
 
 # typora requires yaml, not toml
-typora-root-url: /home/agni/WebSites/published/tutorial-website/static/
+typora-root-url: ../../../static
 ---
 
 ### SQL vs NoSQL
@@ -41,10 +41,18 @@ It is often said that there is an "impedance mismatch" between the relational mo
 
 ### Relational Database Management Systems
 
-A data scientist who interacts with an RDBMS, will likely encounter one of the top four most popular systems.
+Per [DB Engines](https://db-engines.com/en/ranking_trend) in June 2019, the trends for the 5 most popular Database Management Systems and SQLite are:
 
-Per [DB Engines](https://db-engines.com/en/ranking_trend) in January 2019, the trends for the four most popular RDBMS:
+![DB Rankings Image](/images/DB-Rankings-2019-06.png)
 
-![DB Rankings Image](/images/DB-Rankings-2019-01-18.png)
+#### Some Observations
 
-PostgreSQL is rapidly increasing in use while the top three are gradually declining in use.  This is in part because the top three have very high licensing fees and PostgreSQL is free, open-source, and with over 20 years of development, reliable and full featured.
+The top four Database Management Systems are all Relational.  The fifth is MongoDB which is document oriented.
+
+The top three relational open source systems are MySQL, PostgreSQL, and SQLite.  For an excellent comparison see: [SQLite vs MySQL vs PostgreSQL](<https://www.digitalocean.com/community/tutorials/sqlite-vs-mysql-vs-postgresql-a-comparison-of-relational-database-management-systems>)
+
+Since 2014, PostgreSQL has doubled in popularity, whereas the top three RDBMS products have all declined slightly.
+
+For learning SQL (and the basics of RDMBS administration), I would recommend PostgreSQL.  It has many features that are missing from SQLite and MySQL.  
+
+For deploying an application, the best open source RDMBS depends on your application needs.  See the above link comparing SQLite, MySQL and PostgreSQL.

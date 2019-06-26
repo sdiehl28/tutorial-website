@@ -1,7 +1,7 @@
 +++
 title = "Working with Data"
 weight = 30
-lastmod = 2019-01-19
+lastmod = 2019-06-26
 
 +++
 
@@ -9,7 +9,7 @@ Some common ways to represent and work with data:
 
 **Python**: DataFrame and Pandas
 
-**R**: data.frame and dplyr
+**R**: data.frame and tidyverse
 
 **DBMS**: table and SQL
 
