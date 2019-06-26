@@ -7,8 +7,8 @@ typora-root-url: ../../../static
 ---
 #### Notebook: <a href="http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/projects/titanic/TitanicN10.ipynb" target="_blank">Building an Interpretable Model</a>
 #### Goals  
-- Build two small, simple, yet accurate DecisionTrees
-- Use Decision Trees to explain the domain data
+- Build two small, simple, yet accurate DecisionTrees for the Titanic data set
+- Use Decision Trees to show how features are associated with survival rate
 
 #### Results  
 

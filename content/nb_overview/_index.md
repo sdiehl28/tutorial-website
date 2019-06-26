@@ -3,7 +3,7 @@ title = "Jupyter Notebooks"
 description = ""
 weight = 30
 alwaysopen = false
-lastmod = 2019-01-19
+lastmod = 2019-06-26
 
 +++
 
@@ -46,14 +46,14 @@ Complex notebooks are easier to maintain using Jupyter Lab which provides tabs f
 
 ### Operating System
 
-Most of the Jupyter Notebooks on this site will run identically under Linux or MacOS or Windows.  All notebooks were tested on Ubuntu 18.04 LTS running Anaconda Distribution 2018.12 or later.
+Most of the Jupyter Notebooks on this site will run identically under Linux or MacOS or Windows.  All notebooks were tested on Ubuntu 18.04.2 LTS running Anaconda Distribution 2019.03 or later.
 
 ### Python Package Versions
 
-The package versions I am using on my workstation, as of March, 2019, can be seen with: [Show Versions](
+The package versions I am using on my workstation, as of June, 2019, can be seen with: [Show Versions](
 http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/snippets/ShowVersions.ipynb)
 
-I am using the Anaconda distribution which I highly recommend for learning purposes.  See [Getting Started](/getting_started)
+I am using the Anaconda distribution which I recommend for learning purposes.  See [Getting Started](/getting_started)
 
 If you install a recent version of Anaconda, your packages will be the same or later and these notebooks should work the same in your environment.
 
