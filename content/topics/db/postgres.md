@@ -1,7 +1,7 @@
 ---
 title: PostgreSQL Installation
 weight: 30
-lastmod: 2019-01-19
+lastmod: 2019-08-12
 
 # typora requires yaml, not toml
 typora-root-url: /home/agni/WebSites/published/tutorial-website/static/
@@ -115,12 +115,12 @@ postgres=# \password
 
 Download the wheel from: [pgAdmin4 Python Wheel](https://www.pgadmin.org/download/pgadmin-4-python-wheel/)
 
-Chose one of the latest versions to download.
+Choose one of the latest versions to download.
 
 Create a Python Virtual Environment:
 
 ```bash
-# chose a directory where you want it installed
+# choose a directory where you want it installed
 # for example
 cd ~/bin
 python3 -m venv pgadmin4
@@ -130,7 +130,7 @@ source pgadmin4/bin/activate
 
 # install the pgAdmin4 wheel
 # for example
-pip install ~/Downloads/pgadmin4-4.3-py2.py3-none-any.whl
+pip install ~/Downloads/pgadmin4-4.11-py2.py3-none-any.whl
 ```
 
 The default Postgres authentication is peer.  This means the Linux user must match the Postgres user.  I find this inconvenient, especially as I just created a venv under my usual Linux login user.
