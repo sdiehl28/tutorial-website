@@ -4,13 +4,13 @@ description = ""
 weight = 10
 alwaysopen = false
 head = "<label>Jupyter Notebooks</label>"
-lastmod = 2019-06-12
+lastmod = 2019-12-10
 
 +++
 
 Here is a list of the Jupyter Notebooks I have created on github, organized by topic.
 
-These notebooks are designed for use with Jupyter Lab and the Table of Contents extension: [JupyterLab TOC Extension](https://github.com/jupyterlab/jupyterlab-toc).
+These notebooks are designed for use with jupyter lab and the Table of Contents extension: [JupyterLab TOC Extension](https://github.com/jupyterlab/jupyterlab-toc) or with jupyter notebook.
 
 ### Python Programming
 
@@ -35,8 +35,6 @@ A basic understanding of Python and programming is assumed.  Some commonly misun
 
 ### Regular Expressions
 
-A previous introduction to regular expressions would be helpful.
-
 * [RegEx: Examples]( http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/python/RegEx.ipynb)
   * re.search()
   * search flags
@@ -57,14 +55,10 @@ A previous introduction to regular expressions would be helpful.
 
 ### Seaborn / Matplotlib
 
-A previous introduction to matplotlib would be helpful.
-
 - [Seaborn]( http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/python/Seaborn.ipynb)
   - Demonstrate several features of Seaborn plotting.
 
 ### Pandas
-A basic understanding of numpy is assumed.
-
 * [Pandas DataFrame Elements]( http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/python/Pandas01a.ipynb)
 * [Data Selection]( http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/python/Pandas01b.ipynb)
   * **df[]** - 5 different ways to use it

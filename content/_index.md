@@ -3,14 +3,14 @@ title = "Home Page"
 description = "Home Page"
 creatordisplayname = "Stephen Diehl"
 lastmodifierdisplayname = " by Stephen Diehl"
-lastmod = 2019-06-14
+lastmod = 2019-12-10
 typora-root-url = "/home/agni/WebSites/published/tutorial-website/static"
 
 +++
 
 # Data Science<br/> Machine Learning<br/> and Python
 
-### <span style="color:#3333FF">New: June 2019</span>
+### <span style="color:#3333FF">New</span>
 In depth, [10 Jupyter notebook series](/projects/iterative_model_dev/) on building Machine Learning Models using the latest features from Scikit Learn 0v.21 (released in May 2019).
 
 ### Overview
