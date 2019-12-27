@@ -2,7 +2,8 @@
 title = "Myself"
 weight = 420
 lastmodifierdisplayname = " by Stephen Diehl"
-lastmod = 2019-01-11
+lastmod = 2019-12-27
+
 +++
 I am a professional software developer with over 20 years of software development experience.
 
@@ -18,6 +19,5 @@ I love hiking up mountains.  Reaching the summit of a difficult mountain require
 * White Mountain CA (14,252)
 * San Gorgonio (11,503)
 * San Jacinto from Idyllwild (10,833)
-* San Gorgonio (11,503)
 
-I have posted pictures of wildlife and mountains from my hikes at [My Mountain Pictures](https://mountainwinds.smugmug.com).  Most pictures were taken with a Nikon D7100 DSLR using a 18mm to 140mm zoom lens.  Most pictures were shot in RAW mode and edited with [Raw Therapee](https://rawtherapee.com/).
+I have posted pictures of wildlife and mountains from my hikes at [My Mountain Pictures](https://mountainwinds.smugmug.com).  Most pictures were taken with a Nikon D7100 DSLR using a 18mm to 140mm zoom lens.  Most pictures were shot in RAW mode.  Earlier photos were edited with [Raw Therapee](https://rawtherapee.com/), later photos were edited with [darktable](https://www.darktable.org/)
