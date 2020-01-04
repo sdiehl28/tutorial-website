@@ -1,13 +1,13 @@
 ---
 title: Python
 weight: 20
-lastmod: 2019-06-26
+lastmod: 2020-01-03
 
 typora-root-url: ../../../static
 ---
 ### Python Popularity
 
-As of June 2019, and likely to remain so for quite some time, Python is the fastest growing programming language.
+As of December 2019, and likely to remain so for quite some time, Python is the fastest growing programming language.
 
 To quote from [Tiobe](https://www.tiobe.com/tiobe-index/) in June 2019:
 
@@ -17,7 +17,7 @@ To quote from [Tiobe](https://www.tiobe.com/tiobe-index/) in June 2019:
 
 ![tiobe-index](/images/tiobe-2019-06.png)
 
-A few notes about the above chart.  C is mostly used for embedded and systems programming. Visual Basic .NET is mostly used for interacting with Windows applications.  Java is more popular than Python, but Python is the language rising fastest in popularity.  Interestingly, the use of R has decreased over the last year, dropping to 22nd place.  It appears Python has won the Python vs R battle for use in business.
+A few notes about the above chart.  C is mostly used for embedded and systems programming. Visual Basic .NET is mostly used for interacting with Windows applications.  Java is more popular than Python, but Python is the language rising fastest in popularity.  Interestingly, the use of R has decreased over the last year.  It appears Python has won the Python vs R battle for use in business.
 
 The rise in popularity of Python is no doubt driven by the rise in popularity of Data Science and Machine Learning.  Python offers excellent support for Data Science with Pandas, Matplotlib/Seaborn and more.  Python offers excellent support for Machine Learning with Scikit Learn, Keras, and more.
 

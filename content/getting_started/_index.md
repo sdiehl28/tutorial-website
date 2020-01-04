@@ -4,7 +4,7 @@ description = ""
 weight = 110
 alwaysopen = false
 head = "<label>Recommendations</label>"
-lastmod = 2019-06-26
+lastmod = 2020-01-03
 
 +++
 
@@ -40,10 +40,10 @@ Online courses are very helpful.  I highly recommend taking several to get start
 
 All code here uses the Anaconda distribution of Python.   There are many excellent Anaconda installation tutorials on the web, such as: <a href="https://www.youtube.com/watch?v=YJC6ldI3hWk" target="_blank">Installing Anaconda</a>
 
-In a production environment, it is important to create the minimal environment necessary in order to minimize application maintenance.  [Miniconda](<https://docs.conda.io/en/latest/miniconda.html>) (also from Anaconda) is a more appropriate distribution.
+In a production environment, it is important to create the minimal environment necessary in order to minimize application maintenance.  As such, the [Miniconda](<https://docs.conda.io/en/latest/miniconda.html>) distribution (also from Anaconda) may be more appropriate.
 
-### JupyterLab
+### JupyterLab and Jupyter Notebook
 
-As of the time of this writing, [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/) is in beta, but it is ready for use.  JupyterLab is a great way to develop Jupyter notebooks.  I would also recommend the JupyterLab extensions for spell checking and table-of-contents.
+JupyterLab and Jupyter Notebook are great ways to experiment and learn.
 
-[Jupyter Notebook](<https://jupyter.org/>) is also an excellent option.  The [Jupyter Notebook Release Notes](<https://jupyter-notebook.readthedocs.io/en/latest/changelog.html#release-6-0>) suggest using Jupyter Lab rather than Jupyter Notebook as Jupyter Notebook will be transitioning to Jupyter Lab.  For a good introduction to Jupyter Lab see [Jupyter Lab: Evolution of Jupyter Notebook](<https://towardsdatascience.com/jupyter-lab-evolution-of-the-jupyter-notebook-5297cacde6b>).
+JupyterLab may run slow with a large notebook (even after the release of JupyterLab 1.0).  As such, it may be preferable to use Juypter Notebook until the performance of JupterLab is as good as that of Jupyter Notebook.

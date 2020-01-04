@@ -3,7 +3,7 @@ title = "Applied DS & ML in Python"
 description = ""
 weight = 30
 alwaysopen = false
-lastmod = 2019-06-26
+lastmod = 2020-01-03
 
 +++
 
@@ -11,7 +11,7 @@ The software libraries used for Data Science and Machine Learning in Python are 
 
 Recommendations
 
-- [Master Data Analysis with Python](<https://online.dunderdata.com/courses/master-data-analysis-with-python-volume-1-foundations-of-data-exploration>) -- Continuously updated.  As of this writing, last update was June 24th, 2019.
-- [Machine Learning with Python Cookbook](https://www.amazon.com/Machine-Learning-Python-Cookbook-Preprocessing/dp/1491989386/) -- Published April 2018.
+- [Master Data Analysis with Python](<https://www.dunderdata.com/master-data-analysis-with-python>) -- Best resource for learning Pandas.  The material is continuously being update, with the latest update occurring in November, 2019.  This is distributed as a pdf and a set of Jupyter Notebooks.
+- [Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow](https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow-ebook/dp/B07XGF2G87/) -- Published September 2019.
 
-Both of the above books are excellent.
+Both of the above are excellent.

@@ -1,7 +1,7 @@
 ---
 title: Working with Databases
 weight: 20
-lastmod: 2019-06-26
+lastmod: 2020-01-03
 
 # typora requires yaml, not toml
 typora-root-url: ../../../static
@@ -41,9 +41,7 @@ It is often said that there is an "impedance mismatch" between the relational mo
 
 ### Relational Database Management Systems
 
-Per [DB Engines](https://db-engines.com/en/ranking_trend) in June 2019, the trends for the 5 most popular Database Management Systems and SQLite are:
-
-![DB Rankings Image](/images/DB-Rankings-2019-06.png)
+Per [DB Engines](https://db-engines.com/en/ranking_trend) in December 2019, PostgreSQL is the fastest growing Database Management System and the fourth most popular overall.  It remains well behind the big three; Oracle MySQL and Microsoft SQL Server, however these three are in gradual decline.
 
 #### Some Observations
 
