@@ -4,7 +4,7 @@ description = ""
 weight = 10
 alwaysopen = false
 head = "<label>Jupyter Notebooks</label>"
-lastmod = 2019-12-10
+lastmod = 2020-01-15
 
 +++
 
@@ -87,18 +87,7 @@ A basic understanding of Python and programming is assumed.  Some commonly misun
 
 ### Open Source Baseball Project
 
-Analyze open source baseball data from Lahman and Retrosheet.
-
-For detail see: [Baseball Data Analysis](/projects/baseball/)
-
-* [Get Lahman & Retrosheet Data]( http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/python/BB01-Intro.ipynb)
-* [Helper Functions]( http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/python/BB02-HelperFunctions.ipynb)
-* [Data Organization & Data Dictionary]( http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/python/BB03-DataOrganization.ipynb)
-* [Lahman: Wrangle and Persist]( http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/python/BB04-LahmanWranglePersist.ipynb)
-* [Retrosheet: Parse Data]( http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/python/BB05-RetroParse.ipynb)
-* [Retrosheet: Wrangle and Persist to csv]( http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/python/BB06-RetroWranglePersistCSV.ipynb)
-* [Retrosheet: Persit to Postgres]( http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/python/BB07-RetroPersistPostgres.ipynb)
-* [Lahman & Retrosheet: Aggregate and Compare]( http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/python/BB08-CompareRetroLahman.ipynb)
+Analyze open source baseball data from Lahman and Retrosheet.  This project has moved to: https://github.com/sdiehl28/baseball-analytics
 
 ### Iterative Model Development with Scikit Learn
 
