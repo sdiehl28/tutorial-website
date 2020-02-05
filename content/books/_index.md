@@ -3,9 +3,10 @@ title = "Books"
 description = ""
 weight = 120
 alwaysopen = false
-lastmod = 2018-04-26
+lastmod = 2020-02-05
+
 +++
-I believe it is more helpful to present a short list of excellent books than it is to present dozens of books which overwhelm the newcomer.
+I believe it is more helpful to someone getting started to present a short list of excellent books than it is to present dozens of books.
 
 I find it is also helpful to reread the best books, being sure to fully grasp the material, before moving on to other books.
 

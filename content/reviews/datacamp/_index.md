@@ -2,9 +2,10 @@
 title = "Data Camp"
 description = ""
 weight = 230
-lastmod = 2018-02-25
+lastmod = 2020-02-05
+
 +++
-Data Camp has by far the best platform for learning how to write code for Data Science and Machine Learning for both Python and R.
+Data Camp has an excellent platform for learning how to write code for Data Science and Machine Learning for both Python and R.
 
 Arguably DataCamp does not teach the core concepts quite as well as the Coursera specializations, however if you want to be employed as a Data Scientist, you must know how to code.  DataCamp's interactive web based platform, which provides hints, accepts real code input, and often does the tedious setup code for you, is a quick and effective way to gain "muscle memory" for coding real-world solutions.
 

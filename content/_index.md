@@ -3,7 +3,7 @@ title = "Home Page"
 description = "Home Page"
 creatordisplayname = "Stephen Diehl"
 lastmodifierdisplayname = " by Stephen Diehl"
-lastmod = 2020-01-15
+lastmod = 2020-02-05
 typora-root-url = "/home/agni/WebSites/published/tutorial-website/static"
 
 +++
@@ -11,9 +11,7 @@ typora-root-url = "/home/agni/WebSites/published/tutorial-website/static"
 # Data Science<br/> Machine Learning<br/> and Python
 
 ### <span style="color:#3333FF">New</span>
-In depth, [10 Jupyter notebook series](/projects/iterative_model_dev/) on building Machine Learning Models using the latest features from Scikit Learn 0v.21 (released in May 2019).
-
-The Baseball project was moved to a new github repo and completely revised.  Scripts to download, parse, tidy, validate and clean open source baseball data are used to create the initial csv files and optionally load the data into Postgres.  These are at: [baseball analytics](https://github.com/sdiehl28/baseball-analytics).  Examples of baseball data analysis using Jupyter notebooks are also published in that repo.
+The Baseball project has moved to a new github repo and has been completely revised.  Scripts to download, parse, tidy, validate, and clean open source baseball data are used to create the initial csv files and optionally load the data into Postgres.  These are at [baseball analytics](https://github.com/sdiehl28/baseball-analytics).  Examples of baseball data analysis using Jupyter notebooks are also published in that repo.
 
 ### Overview
 

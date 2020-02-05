@@ -3,7 +3,7 @@ title = "Jupyter Notebooks"
 description = ""
 weight = 30
 alwaysopen = false
-lastmod = 2019-06-26
+lastmod = 2020-02-05
 
 +++
 
@@ -28,6 +28,7 @@ The easiest way to be efficient in a professional programming environment is to 
 The choice of an IDE is a personal matter.  The following IDEs (with their appropriate plug-ins), are excellent:
 
 * [PyCharm](https://www.jetbrains.com/pycharm/download/)
+* [VSCode](https://code.visualstudio.com/)
 * [Atom](https://atom.io/)
 * [Sublime](https://www.sublimetext.com/)
 
@@ -35,9 +36,9 @@ It is important to note that a Jupyter Notebook serves a different purpose than 
 
 A free service which makes it easy to share Jupyter notebooks with others is [nbviewer](https://nbviewer.jupyter.org/).  Nbviewer also offers the option to download the Jupyter Notebook it is displaying or execute it on Binder.
 
-All the links on this website use nbviewer to display my Jupyter Notebooks.  Simply click on the link.  For example: [Show Versions](https://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/snippets/ShowVersions.ipynb)
+All the links on this website use nbviewer to display my Jupyter Notebooks.  Simply click on the link.  For example [Show Versions](https://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/snippets/ShowVersions.ipynb)
 
-To use Binder from the nbviewer page, simply click on the 3 ring icon in the top right of the nbviewer page.  This will take you to the binder site where you will be allowed to execute the Jupyter Notebook and make temporary changes to it.  For details about how Binder works see: [MyBinder How It Works](https://mybinder.org/#how-it-works)
+To use Binder from the nbviewer page, simply click on the 3 ring icon in the top right of the nbviewer page.  This will take you to the binder site where you will be allowed to execute the Jupyter Notebook and make temporary changes to it.  For details about how Binder works see [MyBinder How It Works](https://mybinder.org/#how-it-works)
 
 ### Using Jupyter Lab for Jupyter Notebooks
 
@@ -46,11 +47,11 @@ Complex notebooks are easier to maintain using Jupyter Lab which provides tabs f
 
 ### Operating System
 
-Most of the Jupyter Notebooks on this site will run identically under Linux or MacOS or Windows.  All notebooks were tested on Ubuntu 18.04.2 LTS running Anaconda Distribution 2019.03 or later.
+Most of the Jupyter Notebooks on this site will run identically under Linux or MacOS or Windows.  All notebooks were tested on Ubuntu 18.04.4 LTS running Anaconda Distribution 2019.10 or later.
 
 ### Python Package Versions
 
-The package versions I am using on my workstation, as of June, 2019, can be seen with: [Show Versions](
+The package versions I am using on my workstation, as of February, 2020, can be seen with [Show Versions](
 http://nbviewer.jupyter.org/github/sdiehl28/tutorial-jupyter-notebooks/blob/master/snippets/ShowVersions.ipynb)
 
 I am using the Anaconda distribution which I recommend for learning purposes.  See [Getting Started](/getting_started)

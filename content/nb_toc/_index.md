@@ -4,7 +4,7 @@ description = ""
 weight = 10
 alwaysopen = false
 head = "<label>Jupyter Notebooks</label>"
-lastmod = 2020-01-15
+lastmod = 2020-02-05
 
 +++
 
@@ -27,7 +27,7 @@ A basic understanding of Python and programming is assumed.  Some commonly misun
   * string formatting
   * recursion example
   * use key with max and sorted
-  * Python 3.6 NameTuple
+  * Python 3.6 NamedTuple
   * Python 3.6 dataclasses
   * dict with value being list
   * iterator and iterable
@@ -91,7 +91,7 @@ Analyze open source baseball data from Lahman and Retrosheet.  This project has 
 
 ### Iterative Model Development with Scikit Learn
 
-Iterative Model development is presented as a series of 10 notebooks.  Some of the latest features from Scikit Learn v0.21 are demonstrated.
+Iterative Model development is presented as a series of 10 notebooks.
 
 For detail, see: [Iterative Model Development](/projects/iterative_model_dev/)
 

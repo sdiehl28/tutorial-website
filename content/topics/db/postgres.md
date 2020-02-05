@@ -1,7 +1,7 @@
 ---
 title: PostgreSQL Installation
 weight: 30
-lastmod: 2019-08-12
+lastmod: 2020-02-05
 
 # typora requires yaml, not toml
 typora-root-url: /home/agni/WebSites/published/tutorial-website/static/
@@ -17,7 +17,9 @@ A database server needs client tools to make working with the server easier.  An
 
 ### Overview
 
-The following instructions are for beginners.  They are verbose.  If you are an expert, you may chose to do something different.
+The following instructions are for installing Postgres on your local machine.  You may prefer to use a Docker container.  An excellent introduction to docker is [Docker for Beginners](https://www.youtube.com/watch?v=zJ6WbK9zFpI).
+
+These instructions are for beginners.  They are verbose.  If you are an expert, you may chose to do something different.
 
 The following instructions will:
 
@@ -130,7 +132,7 @@ source pgadmin4/bin/activate
 
 # install the pgAdmin4 wheel
 # for example
-pip install ~/Downloads/pgadmin4-4.11-py2.py3-none-any.whl
+pip install ~/Downloads/pgadmin4-4.17-py2.py3-none-any.whl
 ```
 
 The default Postgres authentication is peer.  This means the Linux user must match the Postgres user.  I find this inconvenient, especially as I just created a venv under my usual Linux login user.
