@@ -2,7 +2,7 @@
 title = "DS with Python Track"
 description = ""
 weight = 10
-lastmod = 202-02-05
+lastmod = 2020-02-05
 
 +++
 The [Data Science with Python Track](https://www.datacamp.com/tracks/data-scientist-with-python) consists of 26 courses taught by several different people.  The teaching style of a short video followed by a real coding quiz on their excellent platform, works very well.
