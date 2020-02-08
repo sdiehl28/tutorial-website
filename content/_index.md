@@ -10,7 +10,7 @@ typora-root-url = "/home/agni/WebSites/published/tutorial-website/static"
 
 # Data Science<br/> Machine Learning<br/> and Python
 
-### <span style="color:#3333FF">New</span>
+### <span style="color:#3333FF">New - February 2020</span>
 The Baseball project has moved to a new github repo and has been completely revised.  Scripts to download, parse, tidy, validate, and clean open source baseball data are used to create the initial csv files and optionally load the data into Postgres.  These are at [baseball analytics](https://github.com/sdiehl28/baseball-analytics).  Examples of baseball data analysis using Jupyter notebooks are also published in that repo.
 
 ### Overview
